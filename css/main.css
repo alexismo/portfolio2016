@@ -48,33 +48,72 @@ header{
   margin-top: 100px;
   width: 100%;
   background-color: #444449;
+  height: 80px;
+}
+
+header div{
+}
+
+.header-1 .logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80px;
+}
+
+.header-3{
+  text-align: right;
 }
 
 .topbar{
   max-width: 960px;
-  height: 80px;
   margin: 0 auto;
-  padding-top: 16px;
   display: flex;
   color: #fff;
-  text-transform: uppercase;
 }
 
 h1, h2{
   margin: 0;
   padding: 0;
+  text-transform: uppercase;
 }
 
 .row h1{
   font-family: "proxima-nova-bold", Roboto, sans-serif;
   font-size: 18px;
   letter-spacing: 1.12px;
+  margin-bottom: 4px;
 }
 
 .row h2{
   font-family: "proxima-nova-light", Roboto, sans-serif;
   font-size: 18px;
   letter-spacing: 2.42px;
+}
+
+menu{
+  height: 80px;
+  font-family: "proxima-nova-light", Roboto, sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+}
+
+menu item{
+  width: 33.3333%;
+  height: 80px;
+  text-align: center;
+}
+
+menu item a{
+  color:#fff;
+  line-height: 80px;
+}
+
+menu item a:hover{
+  color:#fff;
+  font-family: "proxima-nova-regular", Roboto, sans-serif;
+  text-decoration: none;
 }
 
 span.chinese{
