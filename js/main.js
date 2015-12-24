@@ -1,9 +1,14 @@
+var headerMargin = 0;
+
 function resizeIntroDiv(){
-
-  console.log("resize div");
-
   intro = document.getElementById("intro");
-  setIntroDivHeight(intro, window.innerHeight-160);
+  header = document.getElementsByTagName("header")[0]
+  headerMargin = window.getComputedStyle(header).marginTop
+  headerMargin = headerMargin.substring(0, headerMargin.length-2)
+  headerHeight = window.getComputedStyle(header).height
+  headerHeight = headerHeight.substring(0, headerHeight.length-2)
+
+  setIntroDivHeight(intro, window.innerHeight-headerMargin - headerHeight);
 }
 
 function setIntroDivHeight(div, height){
