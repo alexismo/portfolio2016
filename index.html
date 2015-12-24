@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css" />
-    <script language="javascript" src="js/main.js" />
+    <script language="javascript" type="text/javascript" src="js/main.js"></script>
     <title>Alexis Morin - UX Designer</title>
   </head>
   <body>
@@ -48,7 +48,7 @@
         <div class="col-md-4 header-3">
           <ul class="socialicons">
           <li>
-            <a href="#">
+            <a href="https://twitter.com/carignanboy">
               <i class="fa fa-twitter fa-lg"></i>
             </a>
           </li>
@@ -72,7 +72,9 @@
       </div>
     </header>
     <section id="intro">
+
       <p class="greeting"><span class="hello chinese">你好</span>, I'm Alexis!</p>
+      <!-- <p class="greeting">👋, I'm Alexis!</p> -->
       <p class="role">UX Designer</p>
 
       <div class="downchevron">
@@ -81,5 +83,23 @@
         </a>
       </div>
     </section>
+    <section id="project-1">
+      <p>
+        Lucas ipsum dolor sit amet crynyd moff jaina barabel kuat jagged ubb naberrie darth corellia. Conan kenobi kwa tarasin wicket darth tiin. Dagobah allana ablajeck artaru di cerean typho biggs. Rakata sunrider zeltron fett mon bossk ranat. Tapani djo cassio gunray yaka. Solo bando abyssin joh gerb jubnuk chazrach keyan. Gizka skywalker mothma luuke dengar yuuzhan. Wookiee leia boba altyr. Mohc leia kyle polis. Rom r2-d2 yoda skywalker. Zev moff naboo mace lorth shaak droch gonk bothawui. Calamari chirrpa mothma bajic zorba darpa fode.
+
+Frozian whiphid ubb jar bollux yaddle. Kessel massassi fisto corran baba fode. Kowakian ken gorith raynar draethos vedder koon vader. Tarpals corran moff skywalker sneevel ackbar saché kathol. Wroonian rukh jan wilhuff seerdon olié reach aka priapulin. Baba darth thrackan dat elrood droid. Ubese lannik bel tono. Kessel kor-uj soontir gossam palpatine tusken raider grodin gran. Conan iktotchi zannah tharen disra raynar shmi charal. Bane wharl lytton ackbar mothma mohc. Ric rukh dashade gossam cody sebulba r4-p17 solo organa.
+      </p>
+    </section>
+    <script>
+    // self executing function here
+    (function() {
+      //resize intro section to browser size
+      resizeIntroDiv();
+
+      window.onresize = function(event) {
+        resizeIntroDiv();
+      }
+    })();
+</script>
   </body>
 </html>

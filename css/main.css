@@ -162,12 +162,15 @@ header a:hover{
 section{
   max-width: 960px;
   margin:0 auto;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 section#intro{
   padding-top: 218px;
   display: flex;
   flex-direction: column;
+  line-height: inherit;
 }
 
 section#intro p{
