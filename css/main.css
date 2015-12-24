@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Noto Sans SC';
   font-style: normal;
-  font-weight: 300;
-  src: url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Light.woff2) format('woff2'),
-       url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Light.woff) format('woff'),
-       url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Light.otf) format('opentype');
+  font-weight: 400;
+  src: url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff2) format('woff2'),
+       url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff) format('woff'),
+       url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.otf) format('opentype');
 }
 
 @font-face{
@@ -60,7 +60,7 @@ body{
 }
 
 header{
-  margin-top: 100px;
+  margin-top: 80px;
   width: 100%;
   background-color: #444449;
   height: 80px;
@@ -122,14 +122,24 @@ menu item{
   text-align: center;
 }
 
-.socialicons a:hover{
+ul.socialicons{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.socialicons li{
+  margin-left: 16px;
+}
+
+.socialicons li a:hover, .socialicons li a:active{
 
   -webkit-transition: color 200ms ease;
   -moz-transition: color 200ms ease;
   -o-transition: color 200ms ease;
   transition: color 200ms ease;
 
-  color:#fff;
+  color:#81D4FA;/*Orange 500 from Material design*/
 }
 
 header a{
@@ -138,7 +148,13 @@ header a{
 }
 
 header a:hover{
-  color:#fff;
+
+  -webkit-transition: color 200ms ease;
+  -moz-transition: color 200ms ease;
+  -o-transition: color 200ms ease;
+  transition: color 200ms ease;
+
+  color:#81D4FA;
   font-family: "proxima-nova-regular", Roboto, sans-serif;
   text-decoration: none;
 }
@@ -173,7 +189,7 @@ p.role{
 
 span.chinese{
   font-family: 'Noto Sans SC', sans-serif;
-  font-weight: 300;
+  font-weight: 500;
 }
 
 @keyframes fadeIn {
