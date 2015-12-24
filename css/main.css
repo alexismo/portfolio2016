@@ -177,6 +177,20 @@ section#intro p{
   text-align: center;
 }
 
+.downchevron{
+  margin: 0 auto;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  font-family: "proxima-nova-light", Roboto, sans-serif;
+  font-size: 16px;
+  padding-top: 30%;
+}
+
+.downchevron img{
+  margin-top: 7px;
+}
+
 p.greeting{
   font-family: "proxima-nova-regular", Roboto, sans-serif;
   font-size: 60px;
