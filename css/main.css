@@ -50,7 +50,7 @@ body{
   position: absolute;
   top: 0;
   left: 0;
-  background-position: center;
+  background-position: center fixed;
   background-image: url('../images/watertown.jpg');
   background-size: cover;
 
@@ -181,11 +181,12 @@ section#intro p{
 .downchevron{
   margin: 0 auto;
   position: relative;
+  top:-100px;
+  margin-bottom: -40px;
   cursor: pointer;
   text-align: center;
   font-family: "proxima-nova-light", Roboto, sans-serif;
   font-size: 16px;
-  padding-top: 10%;
 }
 
 .downchevron img{
