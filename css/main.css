@@ -36,7 +36,10 @@
 
 *{
   box-sizing: border-box;
+}
 
+html{
+  font-size: 60%;
 }
 
 body{
@@ -53,6 +56,7 @@ body{
   background-position: center fixed;
   background-image: url('../images/watertown.jpg');
   background-size: cover;
+  background-attachment: fixed;
 
   z-index: -1;
   animation: fadeIn 3s;
@@ -160,7 +164,7 @@ ul.socialicons{
   color:#81D4FA;/*Orange 500 from Material design*/
 }
 
-section{
+section, footer{
   max-width: 960px;
   margin:0 auto;
   font-size: 16px;
@@ -178,11 +182,53 @@ section#intro p{
   text-align: center;
 }
 
+section.projects>div{
+  max-width: 940px;
+  width: 100%;
+  height: 470px;
+  position: relative;
+  overflow: hidden;
+}
+
+#project-1 .projectTitle{
+  position: relative;
+  z-index: 1;
+  top: 136px;
+  left: 50px;
+  margin-top: -100px;
+}
+
+.projectHero{
+  width: 940px;
+  height: 470px;
+}
+
+.projectHero img{
+  position: absolute;
+  width: 940px;
+  transform-origin: 100% 100%;
+  -webkit-transform-origin: 100% 100%;
+}
+
+.projectHero img.overlay{
+  opacity: 0;
+}
+
+.projectHero:hover img.overlay{
+  animation: kenBurnsOpac 8s;
+  -webkit-animation: kenBurnsOpac 8s;
+}
+
+.projectHero:hover img.underlay{
+  animation: kenBurns 8s;
+  -webkit-animation: kenBurns 8s;
+}
+
 .downchevron{
   margin: 0 auto;
   position: relative;
   top:-100px;
-  margin-bottom: -40px;
+  margin-bottom: -26px;
   cursor: pointer;
   text-align: center;
   font-family: "proxima-nova-light", Roboto, sans-serif;
@@ -217,3 +263,25 @@ span.chinese{
 
   100% {
     opacity: 1; } }
+
+@keyframes kenBurnsOpac{
+  0% {
+    opacity: 0;
+    transform: scale(1.0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+
+@keyframes kenBurns{
+  0% {
+    transform: scale(1.0);
+  }
+
+  100% {
+    transform: scale(1.05);
+  }
+}

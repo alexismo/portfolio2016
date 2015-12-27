@@ -3,6 +3,10 @@
   and (min-width: 768px)
   and (max-width: 1024px){
 
+    html{
+      font-size: 120%;
+    }
+
     .topbar{
       max-width: 720px;
     }
@@ -29,6 +33,14 @@
 @media only screen
   and (max-width: 736px)
   and (min-width: 320px){
+
+    html{
+      font-size:90%;
+    }
+
+    .body-img{
+      background-attachment: scroll;
+    }
 
     header{
       margin-top: 0;
@@ -69,6 +81,19 @@
 
     .topbar .header-3{
       display: none;
+    }
+
+    section.projects{
+      width: 940px;
+    }
+
+    section.projects div{
+      height: 400px;
+      overflow: hidden;
+    }
+
+    section.projects div img{
+      width: 400%;
     }
 }
 
