@@ -171,6 +171,13 @@ section, footer{
   line-height: 22px;
 }
 
+footer{
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 section#intro{
   padding-top: 20%;
   display: flex;
@@ -182,46 +189,80 @@ section#intro p{
   text-align: center;
 }
 
-section.projects>div{
-  max-width: 940px;
+section.projects li{
+  max-width: 960px;
   width: 100%;
   height: 470px;
   position: relative;
   overflow: hidden;
 }
 
-#project-1 .projectTitle{
-  position: relative;
-  z-index: 1;
-  top: 136px;
-  left: 50px;
-  margin-top: -100px;
+.projectniceties{
+  width: 277px;
+  margin-left: 50px;
+  margin-top: 36px;
+}
+
+.projectTitle{
+}
+
+.viewProject{
+  font-family: "proxima-nova-light", Roboto, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+}
+
+#project-1 .viewProject{
+  color: white;
+  margin-top: 214px;
+}
+
+.rightChevron{
+  margin-left: 20px;
+  margin-top: -4px;
 }
 
 .projectHero{
-  width: 940px;
+  width: 960px;
   height: 470px;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  opacity: 1;
 }
 
 .projectHero img{
   position: absolute;
-  width: 940px;
+  width: 960px;
+  -webkit-transform:scale(1.0)
+  transform:scale(1.0)
+
+  -webkit-transition: -webkit-transform 8s, opacity 8s;
+  transition: transform 8s, opacity 8s;
+
   transform-origin: 100% 100%;
   -webkit-transform-origin: 100% 100%;
 }
 
-.projectHero img.overlay{
+.projects li img.overlay{
   opacity: 0;
 }
 
-.projectHero:hover img.overlay{
-  animation: kenBurnsOpac 8s;
-  -webkit-animation: kenBurnsOpac 8s;
+.projects li:hover img.overlay{
+  /*animation: kenBurnsOpac 8s;
+  -webkit-animation: kenBurnsOpac 8s;*/
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
+  opacity: 1;
 }
 
-.projectHero:hover img.underlay{
-  animation: kenBurns 8s;
-  -webkit-animation: kenBurns 8s;
+.projects li:hover img.underlay{
+  /*animation: kenBurns 8s;
+  -webkit-animation: kenBurns 8s;*/
+  -webkit-transform:scale(1.05);
+  transform:scale(1.05);
 }
 
 .downchevron{
