@@ -43,7 +43,7 @@ html{
 }
 
 body{
-  color: #444449;
+  color: #303033;
   font-family: 'proxima-nova-regular', 'Helvetica', sans-serif;
 }
 
@@ -220,6 +220,10 @@ section.projects li{
 
 #project-2 .viewProject{
   margin-top: 224px;
+}
+
+#project-2 .rightChevron{
+  fill: #303033;
 }
 
 #project-2 .projectHero{
