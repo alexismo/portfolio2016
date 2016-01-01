@@ -218,6 +218,18 @@ section.projects li{
   margin-top: 214px;
 }
 
+#project-2 .viewProject{
+  margin-top: 224px;
+}
+
+#project-2 .projectHero{
+  background: linear-gradient(0, #EDEDED, #E9E9EB);
+}
+
+#project-2 .projectHero img{
+  margin-top: -7%;
+}
+
 .rightChevron{
   margin-left: 20px;
   margin-top: -4px;
@@ -242,8 +254,8 @@ section.projects li{
   -webkit-transition: -webkit-transform 8s, opacity 8s;
   transition: transform 8s, opacity 8s;
 
-  transform-origin: 100% 100%;
-  -webkit-transform-origin: 100% 100%;
+  transform-origin: 70% 60%;
+  -webkit-transform-origin: 70% 60%;
 }
 
 .projects li img.overlay{
@@ -251,16 +263,12 @@ section.projects li{
 }
 
 .projects li:hover img.overlay{
-  /*animation: kenBurnsOpac 8s;
-  -webkit-animation: kenBurnsOpac 8s;*/
   -webkit-transform:scale(1.05);
   transform:scale(1.05);
   opacity: 1;
 }
 
 .projects li:hover img.underlay{
-  /*animation: kenBurns 8s;
-  -webkit-animation: kenBurns 8s;*/
   -webkit-transform:scale(1.05);
   transform:scale(1.05);
 }

@@ -16,7 +16,7 @@
     }
 
     section{
-      max-width: 960px;
+      max-width: 768px;
     }
 }
 
@@ -25,6 +25,10 @@
   and (min-width: 668px)
   and (max-width: 767px){
     .topbar{
+      max-width: 668px;
+    }
+
+    section{
       max-width: 640px;
     }
 }
@@ -83,17 +87,62 @@
       display: none;
     }
 
-    section.projects{
-      width: 940px;
+    section.projects li {
+      height: 400px;
     }
 
-    section.projects div{
+    section.projects>div{
       height: 400px;
       overflow: hidden;
     }
 
+    .projectHero{
+      width: 100%;
+    }
+
+    .projectHero img{
+      position: relative;
+    }
+
+    #project-1 .projectHero img, #project-2 .projectHero img{
+      float: right; /* not all projects focus on the right side*/
+    }
+
+    #project-2 .projectHero img{
+      height: 100%;
+      margin-top: 0;
+      margin-right:-20%;
+      transform: scale(0.8)
+    }
+
+    #project-1 .viewProject, #project-2 .viewProject{
+      margin-top: 45%;
+    }
+
+    .projects li img.overlay {
+      margin-top: -400px;
+      opacity: 1;
+    }
+
+    .projectniceties{
+      width: auto;
+      margin-left: 0;
+      margin-right: 0;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .viewProject{
+      height: auto;
+      justify-content: flex-end;
+    }
+
+    .projectHero img{
+      height: 400px;
+    }
+
     section.projects div img{
-      width: 400%;
     }
 }
 
