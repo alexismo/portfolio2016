@@ -129,11 +129,15 @@
     <script>
     // self executing function here
     (function() {
+
+      var isMobile = window.matchMedia("only screen and (max-width: 760px)");
       //resize intro section to browser size
       resizeIntroDiv();
 
-      window.onresize = function(event) {
-        resizeIntroDiv();
+      if (!isMobile.matches){
+        window.onresize = function(event) {
+          resizeIntroDiv();
+        }
       }
     })();
 </script>
