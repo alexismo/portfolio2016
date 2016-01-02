@@ -203,6 +203,10 @@ section.projects li{
   margin-top: 36px;
 }
 
+.projectniceties p{
+  margin-top:10px;
+}
+
 .projectTitle{
 }
 
@@ -210,7 +214,6 @@ section.projects li{
   font-family: "proxima-nova-light", Roboto, sans-serif;
   text-transform: uppercase;
   font-size: 20px;
-  text-align: center;
 }
 
 #project-1 .viewProject{

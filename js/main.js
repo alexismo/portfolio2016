@@ -1,5 +1,20 @@
 var headerMargin = 0;
 
+function sizeBg(){
+  var bg = document.getElementsByClassName("body-img")[0];
+  var introHeight = window.getComputedStyle(document.getElementById("intro")).height;
+  introHeight = parseInt(introHeight.substring(0, introHeight.length-2));
+  var header = document.getElementsByTagName("header")[0];
+  var headerHeight = window.getComputedStyle(header).height;
+  headerHeight = parseInt(headerHeight.substring(0, headerHeight.length-2));
+
+  var headerMargin = window.getComputedStyle(header).marginTop;//for tablets
+  headerMargin = parseInt(headerMargin.substring(0, headerMargin.length-2));
+
+  var totalHeight = introHeight+ headerHeight + headerMargin;
+  bg.style.height = totalHeight+"px";
+}
+
 function resizeIntroDiv(){
   intro = document.getElementById("intro");
   header = document.getElementsByTagName("header")[0]

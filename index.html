@@ -98,6 +98,7 @@
           <div class="project" id="project-1">
             <div class="projectniceties">
               <img src="images/projects/classroom/ef-classroom.svg" class="projectTitle" />
+              <p style="color:white;">Responsive E-Learning Platform</p>
               <div class="viewProject">
                 View this project <img src="images/rightChevron.svg" class="rightChevron" />
               </div>
@@ -112,6 +113,7 @@
           <div class="project" id="project-2">
             <div class="projectniceties">
               <img src="images/projects/englishlive/englishliveLogo.svg" class="projectTitle" />
+              <p>Flagship English Learning App</p>
               <div class="viewProject">
                 View this project <img src="images/rightChevronGrey.svg" class="rightChevron" />
               </div>
@@ -128,17 +130,20 @@
       &copy; Alexis Morin 2016
     </footer>
     <script>
+
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
     // self executing function here
     (function() {
-
-      var isMobile = window.matchMedia("only screen and (max-width: 760px)");
       //resize intro section to browser size
       resizeIntroDiv();
 
-      if (!isMobile.matches){
+      if (!isMobile){
         window.onresize = function(event) {
           resizeIntroDiv();
         }
+      }else{
+          sizeBg();
       }
     })();
 </script>
