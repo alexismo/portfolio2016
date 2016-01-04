@@ -18,6 +18,20 @@
     section{
       max-width: 768px;
     }
+
+    .projectHero img{
+      width: auto;
+      height: 100%;
+      position: relative;
+    }
+
+    #project-1 .projectHero img, #project-2 .projectHero img{
+      float: right; /* not all projects focus on the right side*/
+    }
+
+    #project-2 .projectHero img {
+      margin-top:0;
+    }
 }
 
 /* annoying pricks that resize their browser */

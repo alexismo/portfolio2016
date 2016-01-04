@@ -197,10 +197,18 @@ section.projects li{
   overflow: hidden;
 }
 
+div.project{
+  height: 100%;
+  padding: 36px 50px;
+}
+
+.projectDesc{
+  height: 50%;
+}
+
 .projectniceties{
   width: 277px;
-  margin-left: 50px;
-  margin-top: 36px;
+  height: 100%;
 }
 
 .projectniceties p{
@@ -214,15 +222,11 @@ section.projects li{
   font-family: "proxima-nova-light", Roboto, sans-serif;
   text-transform: uppercase;
   font-size: 20px;
+  margin-top: 150px;
 }
 
 #project-1 .viewProject{
   color: white;
-  margin-top: 214px;
-}
-
-#project-2 .viewProject{
-  margin-top: 224px;
 }
 
 #project-2 .rightChevron{
@@ -243,7 +247,8 @@ section.projects li{
 }
 
 .projectHero{
-  width: 960px;
+  width: 100%;
+  max-width: 960px;
   height: 470px;
   position: absolute;
   z-index: -1;
@@ -255,6 +260,7 @@ section.projects li{
 .projectHero img{
   position: absolute;
   width: 960px;
+  min-height: 400px;
   -webkit-transform:scale(1.0)
   transform:scale(1.0)
 
