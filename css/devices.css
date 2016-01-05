@@ -1,6 +1,6 @@
 /* tablets in Portrait */
 @media only screen
-  and (min-width: 768px)
+  and (min-width: 735px)
   and (max-width: 1024px){
 
     html{
@@ -31,19 +31,6 @@
 
     #project-2 .projectHero img {
       margin-top:0;
-    }
-}
-
-/* annoying pricks that resize their browser */
-@media only screen
-  and (min-width: 668px)
-  and (max-width: 767px){
-    .topbar{
-      max-width: 668px;
-    }
-
-    section{
-      max-width: 640px;
     }
 }
 
