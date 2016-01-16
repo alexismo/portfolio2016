@@ -88,6 +88,10 @@
       display: none;
     }
 
+    div.project{
+        padding: 0;
+    }
+
     section.projects li {
       height: 400px;
     }
@@ -95,6 +99,17 @@
     section.projects>div{
       height: 400px;
       overflow: hidden;
+    }
+
+    .projectDesc{
+        background-color: rgba(217,217,217,0.8);
+        display: flex;
+        flex-direction: column;
+        padding: 15px
+    }
+
+    .projectDesc img{
+        height: 105px;
     }
 
     .projectHero{
@@ -129,16 +144,19 @@
       position: relative;
     }
 
+    .projectniceties p{
+        margin-bottom: 0;
+    }
+
     .viewProject{
       height: auto;
       width: 100%;
       margin-top: 0;
       position: absolute;
-      bottom: 0;
+      bottom: 36px;
       color: #303033;
-      background: rgba(243,243,243,0.8); /*#f3f3f3*/
+      background: rgba(217,217,217,0.8);
       padding: 10px 0;
-      border-radius: 10px;
     }
 
     .projectHero img{
