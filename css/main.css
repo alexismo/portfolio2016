@@ -203,12 +203,13 @@ div.project{
 }
 
 .projectDesc{
-  height: 50%;
+
 }
 
 .projectniceties{
   width: 277px;
   height: 100%;
+  position:relative;
 }
 
 .projectniceties p{
@@ -222,7 +223,8 @@ div.project{
   font-family: "proxima-nova-light", Roboto, sans-serif;
   text-transform: uppercase;
   font-size: 20px;
-  margin-top: 150px;
+  bottom: 42px;
+  position: absolute;
 }
 
 #project-1 .viewProject{
@@ -235,10 +237,6 @@ div.project{
 
 #project-2 .projectHero{
   background: linear-gradient(0, #EDEDED, #E9E9EB);
-}
-
-#project-2 .projectHero img{
-  margin-top: -7%;
 }
 
 .rightChevron{

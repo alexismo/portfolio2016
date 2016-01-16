@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="208px" height="169px" viewBox="0 0 208 169" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4.4 (17249) - http://www.bohemiancoding.com/sketch -->
+    <title>jbl AmpUp</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="wide-projects-normal" sketch:type="MSArtboardGroup" transform="translate(-50.000000, -1447.000000)">
+            <g id="AmpUp" sketch:type="MSLayerGroup" transform="translate(0.000000, 1410.000000)">
+                <g id="jbl-AmpUp" transform="translate(50.000000, 37.000000)">
+                    <text id="AmpUp" sketch:type="MSTextLayer" font-family="Helvetica Neue" font-size="59" font-weight="bold" line-spacing="59" fill="#303033">
+                        <tspan x="0" y="156">AmpUp</tspan>
+                    </text>
+                    <g id="jblLogo" transform="translate(45.000000, 0.000000)" sketch:type="MSShapeGroup">
+                        <g id="g8" fill="#303033">
+                            <path d="M0,0 L121,0 L121,99 L0,99 L0,0 L0,0 Z" id="path10"></path>
+                        </g>
+                        <g id="g12" transform="translate(79.000000, 28.000000)" fill="#FFFFFF">
+                            <path d="M20,42 L20,28.6276939 L13.3986826,28.6276939 L13.4018044,35.9433238 C13.4018044,37.9022036 11.8802485,39.4964434 10.005307,39.4964434 C8.12661942,39.4964434 6.60381482,37.9022036 6.60381482,35.9433238 L6.60069304,0 L0,0 L0,42 L20,42 L20,42 Z" id="path14"></path>
+                        </g>
+                        <g id="g16" transform="translate(28.000000, 28.000000)" fill="#FFFFFF">
+                            <path d="M20,34.1747833 C20,38.2911198 17.3971568,42 9.99968783,42 C2.59734908,42 0,37.1600109 0,34.1747833 L0,28.2049706 L6.59882251,28.2049706 L6.59882251,35.4125762 C6.59882251,37.3425307 8.12487904,38.9132296 10.0021227,38.9132296 C11.8806151,38.9132296 13.4012399,37.2943301 13.4012399,35.3624476 L13.398805,0 L20,0 L20,34.1747833 L20,34.1747833 Z" id="path18"></path>
+                        </g>
+                        <g id="g20" transform="translate(54.000000, 28.000000)" fill="#FFFFFF">
+                            <path d="M21,13.9991085 L21,6.84348966 C21,2.1932539 16.7045831,0 13.9990068,0 L0,0 L0,42 L13.9990068,42 C19.2512415,42 21,38.6543142 21,36.5153976 L21,23.9258606 C21,22.148518 19.1452963,19.7966229 16.3840988,19.7966229 C19.1452963,19.7966229 21,16.0891673 21,13.9991085 L21,13.9991085 Z M11.2458669,39 L7,38.991489 L7,22 L11.2458669,22 C14,22 14,23.9433884 14,30.5459594 C14,37.1531133 14,39 11.2458669,39 L11.2458669,39 Z M10.8181818,18 L7,17.9949537 L7,4 L10.8181818,4 C13.3644308,4 14,4.52306882 14,11.0464519 C14,17.5766927 13.3644308,18 10.8181818,18 L10.8181818,18 Z" id="path22"></path>
+                        </g>
+                        <g id="g24" transform="translate(27.000000, 44.000000)" fill="#FFFFFF">
+                            <path d="M3.9999673,0 C1.79338647,0 0,1.79215581 0,4.00042481 C0,6.20869381 1.79338647,8 3.9999673,8 C6.20975271,8 8,6.20869381 8,4.00042481 C8,1.79215581 6.20975271,0 3.9999673,0 L3.9999673,0 Z" id="path26"></path>
+                        </g>
+                        <g id="g28" transform="translate(25.000000, 28.000000)" fill="#FFFFFF">
+                            <path d="M0,0 L6.5015964,15 L13,0 L0,0 L0,0 Z" id="path30"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
