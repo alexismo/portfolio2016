@@ -64,7 +64,7 @@
       text-align: center;
     }
 
-    .header-1{
+    .header-logo{
       height: 64px ;
     }
 
@@ -84,7 +84,7 @@
       line-height: 60px;
     }
 
-    .topbar .header-3{
+    .topbar .header-social{
       display: none;
     }
 
