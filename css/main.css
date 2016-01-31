@@ -53,14 +53,17 @@ body{
   position: absolute;
   top: 0;
   left: 0;
-  background-position: center fixed;
-  background-image: url('../images/watertown.jpg');
+  background-position: center;
   background-size: cover;
   background-attachment: fixed;
 
   z-index: -1;
   animation: fadeIn 3s;
   -webkit-animation: fadeIn 3s;
+}
+
+.bdimg-watertown{
+    background-image: url('../images/watertown.jpg');
 }
 
 header{
@@ -213,27 +216,27 @@ footer #heart:hover{
     transition: color transform 150ms ease;
 }
 
-.socialicons li a i.fa-twitter:hover{
+footer .socialicons li a i.fa-twitter:hover{
     transition: color 200ms ease;
     color: #00aced;/* twitter color! */
 }
 
-.socialicons li a i.fa-instagram:hover{
+footer .socialicons li a i.fa-instagram:hover{
     transition: color 200ms ease;
     color: #3F729B;/* insta color! */
 }
 
-.socialicons li a i.fa-github:hover{
+footer .socialicons li a i.fa-github:hover{
     transition: color 200ms ease;
     color: rgb(125, 125, 125);/* github color! */
 }
 
-.socialicons li a i.fa-dribbble:hover{
+footer .socialicons li a i.fa-dribbble:hover{
     transition: color 200ms ease;
     color: #F46899;/* dribbble color! */
 }
 
-.socialicons li a i.fa-envelope-o:hover{
+footer .socialicons li a i.fa-envelope-o:hover{
     transition: color 200ms ease;
     color: #94B1F5;/* email color? */
 }
@@ -285,6 +288,15 @@ div.project{
   font-size: 20px;
   bottom: 42px;
   position: absolute;
+}
+
+.viewProject a{
+    color: #303033;
+    text-decoration: none;
+}
+.viewProject a:hover{
+    color: #787880;
+    text-decoration: none;
 }
 
 #project-1 .viewProject{

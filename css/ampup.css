@@ -1,0 +1,20 @@
+.bdimg-ampup{
+    background-image: url('../images/projects/ampup/ampup-bdimg.jpg');
+    background-position: 50% 0;
+}
+
+.tagline{
+    width: 100%;
+    max-width: 960px;
+    margin:0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+    font-size: 300%;
+    position: relative;
+    top: 40%;
+}
+
+.content{
+
+}
