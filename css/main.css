@@ -78,7 +78,6 @@ header a{
 }
 
 header a:hover, header a:focus{
-
   -webkit-transition: color 200ms ease;
   -moz-transition: color 200ms ease;
   -o-transition: color 200ms ease;
@@ -89,15 +88,25 @@ header a:hover, header a:focus{
   text-decoration: none;
 }
 
-.header-logo .logo{
+.header-logo{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 80px;
 }
 
-.header-3{
-  text-align: right;
+.header-logo a{
+  height: auto;
+  line-height: normal;
+}
+
+.header-logo h1 a:hover{
+    font-family: "proxima-nova-bold", Roboto, sans-serif;
+    color: #fff;
+}
+
+.header-logo h2 a:hover{
+    font-family: "proxima-nova-light", Roboto, sans-serif;
+    color: #fff;
 }
 
 .topbar{
