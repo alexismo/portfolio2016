@@ -250,6 +250,20 @@ footer .socialicons li a i.fa-envelope-o:hover{
     color: #94B1F5;/* email color? */
 }
 
+.padding-tb{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.padding-xs {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 section#intro{
   padding-top: 20%;
   display: flex;

@@ -21,7 +21,7 @@
 
 .content section h4{
     width: 100%;
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
     font-family: "proxima-nova-light", Roboto, sans-serif;
 }
@@ -35,7 +35,6 @@
     padding: 25px 0 0 0;
     font-size: 100%;
     font-family: "proxima-nova-regular", Roboto, sans-serif;
-    width: 45%;
     margin: 0 auto;
 }
 
@@ -48,8 +47,4 @@
     display: flex;
     flex-direction:row;
     justify-content: space-between;
-}
-
-#ampupdocked section>*{
-    width: 30%;
 }
