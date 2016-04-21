@@ -78,12 +78,24 @@ header a{
 }
 
 header a:hover, header a:focus{
+  -webkit-transition: font-weight 200ms ease;
+  -moz-transition: font-weight 200ms ease;
+  -o-transition: font-weight 200ms ease;
+  transition: font-weight 200ms ease;
+
+  color:#FFF;
+  font-family: "proxima-nova-regular", Roboto, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.socialicons a:hover, .socialicons a:focus{
   -webkit-transition: color 200ms ease;
   -moz-transition: color 200ms ease;
   -o-transition: color 200ms ease;
   transition: color 200ms ease;
 
-  color:#81D4FA;
+  color:#93939e;
   font-family: "proxima-nova-regular", Roboto, sans-serif;
   text-decoration: none;
 }
@@ -323,7 +335,7 @@ div.project{
     text-decoration: none;
 }
 
-#project-1 .viewProject{
+#project-1 .viewProject, #project-4 .viewProject{
   color: white;
 }
 
