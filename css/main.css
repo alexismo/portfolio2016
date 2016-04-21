@@ -266,10 +266,10 @@ footer .socialicons li a i.fa-envelope-o:hover{
 }
 
 section#intro{
-  padding-top: 20%;
   display: flex;
   flex-direction: column;
   line-height: inherit;
+  justify-content: center;
 }
 
 section#intro p{
@@ -382,6 +382,7 @@ div.project{
 }
 
 .downchevron{
+  width: 150px;
   margin: 0 auto;
   position: relative;
   top:-100px;
@@ -394,6 +395,10 @@ div.project{
 
 .downchevron img{
   margin-top: 7px;
+}
+
+div.homegreeting{
+  margin-top: -10%;
 }
 
 p.greeting{

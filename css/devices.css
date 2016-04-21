@@ -176,7 +176,7 @@
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
     .topbar{
-      height: 60px;
+      height: 84px;
       flex-direction:row;
     }
 
@@ -188,6 +188,14 @@
       height: 60px;
       text-align: left;
       padding-left: 20px;
+    }
+
+    menu, menu item{
+      height:84px;
+    }
+
+    menu item a{
+      line-height: 84px;
     }
 }
 
