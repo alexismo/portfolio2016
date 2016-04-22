@@ -167,6 +167,10 @@
 
     section.projects div img{
     }
+
+    h3.about{
+      text-align: left;
+    }
 }
 
 /* Landscape */

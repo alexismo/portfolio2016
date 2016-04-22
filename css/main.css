@@ -147,7 +147,7 @@ h1, h2{
   margin-bottom: 4px;
 }
 
-.row h2{
+.row .header-logo h2{
   font-family: "proxima-nova-light", Roboto, sans-serif;
   font-size: 18px;
   letter-spacing: 2.42px;
@@ -275,6 +275,49 @@ footer .socialicons li a i.fa-envelope-o:hover{
     padding-right: 50px !important;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.tagline{
+    width: 100%;
+    max-width: 960px;
+    margin:0 auto;
+    background-color: #fff;
+    text-align: center;
+    padding: 25px;
+    font-size: 300%;
+    position: relative;
+    top: 40%;
+}
+
+.content{
+    width: 100%;
+}
+
+.content section h4{
+    width: 100%;
+    font-size: 150%;
+    text-align: center;
+    font-family: "proxima-nova-light", Roboto, sans-serif;
+}
+
+.content section{
+    text-align: center;
+    padding: 40px 0;
+
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+
+.content i{
+  font-style:italic;
+}
+
+.content section p{
+    padding: 10px 0 10px 0;
+    font-size: 100%;
+    font-family: "proxima-nova-regular", Roboto, sans-serif;
+    margin: 0 auto;
 }
 
 section#intro{

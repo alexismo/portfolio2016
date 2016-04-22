@@ -1,0 +1,21 @@
+h3.about{
+  height:100%;
+  line-height: 130%;
+}
+
+#about_facts_h{
+  background-color: #689f52;
+  color: #fff;
+}
+
+#about_facts_h a{
+  color:#fff;
+}
+
+#about_facts_h h2, #about_facts_h h3{
+  text-align: left;
+}
+
+.content p{
+  text-align: left;
+}
