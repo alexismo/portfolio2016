@@ -217,6 +217,12 @@
       }else{
           sizeBg();
       }
+
+      //click to scroll to work
+      document.getElementsByClassName('downchevron')[0].addEventListener('click', function(event){
+        window.bringIntoView(document.getElementsByClassName('projects')[0], 2000);
+      });
+
     })();
 </script>
   </body>

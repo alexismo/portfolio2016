@@ -45,3 +45,37 @@ greetings = [
 function changeGreeting(){
   //for a later time
 }
+
+window.bringIntoView_started = 0;
+
+window.bringIntoView_ends = 0;
+
+window.bringIntoView_y = 0;
+
+window.bringIntoView_tick = function() {
+    var distanceLeft, dt, duration, t, travel;
+    t = Date.now();
+    if (t < window.bringIntoView_ends) {
+      dt = t - window.bringIntoView_started;
+      duration = window.bringIntoView_ends - window.bringIntoView_started;
+      distanceLeft = window.bringIntoView_y - document.body.scrollTop;
+      if (Math.abs(distanceLeft) < 1) {
+        return document.body.scrollTop = window.bringIntoView_y;
+      } else {
+        travel = distanceLeft * (dt / duration);
+        console.log('%f => %f (%f) dt=%f / %f (%f)', document.body.scrollTop, window.bringIntoView_y, travel, dt, duration, dt / duration);
+        document.body.scrollTop += travel;
+        return window.requestAnimationFrame(window.bringIntoView_tick);
+      }
+    } else {
+      return document.body.scrollTop = window.bringIntoView_y;
+    }
+  };
+
+window.bringIntoView = function(e, duration) {
+    window.bringIntoView_started = Date.now();
+    window.bringIntoView_ends = window.bringIntoView_started + duration;
+    window.bringIntoView_y = Math.min(document.body.scrollTop + e.getBoundingClientRect().top, document.body.scrollHeight - window.innerHeight);
+    console.log(document.body.scrollTop + e.getBoundingClientRect().top, document.body.scrollHeight, window.bringIntoView_y);
+    return window.requestAnimationFrame(window.bringIntoView_tick);
+  };
