@@ -373,6 +373,11 @@ div.project{
     color: #303033;
     text-decoration: none;
 }
+
+.viewProject a.white{
+  color:#fff;
+}
+
 .viewProject a:hover{
     color: #787880;
     text-decoration: none;
