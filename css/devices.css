@@ -32,6 +32,10 @@
     #project-2 .projectHero img {
       margin-top:0;
     }
+
+    #teacherteaching{
+      background-position: 93%;
+    }
 }
 
 /* iPhone 5, 6, and 6 Plus, Portrait and Landscape */
@@ -170,6 +174,10 @@
 
     h3.about{
       text-align: left;
+    }
+
+    #teacherteaching{
+      background-position: 93%;
     }
 }
 

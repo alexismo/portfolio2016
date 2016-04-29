@@ -7,3 +7,23 @@
     color:#fff;
     background-color: #1a7fff;;
 }
+
+#teacherteaching{
+  height: 550px;
+  color:#fff;
+  background-image: url('../images/projects/classroom/teacherteaching.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.teacherfeatures{
+  text-align: left;
+}
+
+.teacherfeatures li{
+  margin: 10px 0;
+}
+
+.teacherfeatures img{
+  width: 60px;
+}
