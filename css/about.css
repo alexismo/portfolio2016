@@ -23,3 +23,21 @@ h3.about{
 .workwithlogo{
   padding: 25px 0;
 }
+
+.aboutLink{
+  display: block;
+  color: #303033;
+  padding: 15px 35px;
+  border: solid #303033 2px;
+  margin: 15px 0;
+}
+
+a.aboutLink:hover{
+  color: #303033;
+  text-decoration: underline;
+}
+
+.aboutLink img{
+  position: relative;
+  margin-left: 17px;
+}
