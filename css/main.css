@@ -162,7 +162,8 @@ menu{
 }
 
 menu item{
-  width: 33.3333%;
+  /*width: 33.3333%;*/
+  width: 50%;
   height: 80px;
   text-align: center;
 }
