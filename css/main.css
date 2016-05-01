@@ -403,6 +403,10 @@ div.project{
   background: linear-gradient(0, #EDEDED, #E9E9EB);
 }
 
+#project-4 .projectTitle{
+  width: 300px;
+}
+
 .rightChevron{
   margin-left: 17px;
   margin-top: -4px;

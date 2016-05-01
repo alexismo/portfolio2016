@@ -136,6 +136,10 @@
       margin-right:-20%;
     }
 
+    #project-4 .projectTitle{
+      width: auto;
+    }
+
     .projects li img.overlay {
       opacity: 1;
     }
