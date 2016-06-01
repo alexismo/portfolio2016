@@ -16,6 +16,14 @@
   background-position: center;
 }
 
+#classroom-isometric{
+  height: 684px;
+  color:#fff;
+  background-image: url('../images/projects/classroom/classroom-isometric.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .teacherfeatures{
   text-align: left;
 }
