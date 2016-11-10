@@ -116,11 +116,6 @@ header a:hover, header a:focus{
     color: #fff;
 }
 
-.header-logo h2 a:hover{
-    font-family: "proxima-nova-light", Roboto, sans-serif;
-    color: #fff;
-}
-
 .topbar{
   max-width: 960px;
   height: 80px;
@@ -150,7 +145,8 @@ h1, h2{
 .row .header-logo h2{
   font-family: "proxima-nova-light", Roboto, sans-serif;
   font-size: 18px;
-  letter-spacing: 2.42px;
+  letter-spacing: 7.42px;
+  color: #fff;
 }
 
 menu{
@@ -319,6 +315,11 @@ footer .socialicons li a i.fa-envelope-o:hover{
     font-size: 100%;
     font-family: "proxima-nova-regular", Roboto, sans-serif;
     margin: 0 auto;
+}
+
+.contribution section{
+  text-align: left;
+  max-width: 800px;
 }
 
 section#intro{
