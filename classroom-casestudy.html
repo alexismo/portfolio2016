@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/classroom.css" />
+    <link rel="stylesheet" href="css/casestudy.css" />
     <link rel="stylesheet" href="css/devices.css" />
     <link rel="shortcut icon" href="images/almo-favicon.ico" />
     <title>Alexis Morin - EF Classroom</title>
@@ -79,7 +79,7 @@
     <div id="intro">
         <h3 class="tagline">Classroom Case Study</h3>
     </div>
-    <div class="content" id="classroomintro">
+    <div class="content" id="casestudyintro">
         <section>
           <div class="col-md-12 center">
             <div class="col-xs-12">
@@ -97,122 +97,96 @@
 
         </section>
     </div>
-    <div class="content">
-      <section>
 
-        <div class="col-12 center">
-          <div class="col-md-6">
-            <img src="images/projects/classroom/ipad-notes.jpg" width="100%" />
-          </div>
-          <div class="col-md-6">
-            <img src="images/projects/classroom/ipad-chat.jpg" width="100%" />
-          </div>
-        </div>
-      </section>
-      </div>
-      <div class="content">
-      <section>
-        <div class="col-12 center">
-          <div class="col-md-6">
-            <img src="images/projects/classroom/ipad-attendees.jpg" width="100%" />
-          </div>
-          <div class="col-md-6">
-            <img src="images/projects/classroom/ipad-info.jpg" width="100%" />
-          </div>
-        </div>
-
-      </section>
-    </div>
-
-    <div class="content">
-        <section>
-            <div class="col-xs-12 center">
-              <!-- <div class="col-xs-12 padding-no center">
-                  <h3 style="font-weight:300;">The EF Classroom</h3>
-                  <p>
-
-                  </p>
-              </div>
-              <div class="col-xs-12 padding-no center">
-                  <h3 style="font-weight:300;">Built <strong>for</strong> and <strong>with</strong> students &amp; teachers in mind</h3>
-              </div> -->
-              <div class="col-md-6 padding-xs">
-                  <h4>Teacher Observation</h4>
-                  <p>
-                    <img src="images/projects/classroom/teacher-observation.jpg" width="100%" />
-                  </p>
-              </div>
-              <div class="col-md-6 padding-xs">
-                <h4>Bespoke Features</h4>
-                <ul class="teacherfeatures">
-                  <li>
-                    <img src="images/projects/classroom/raisehand.png" />
-                    Class Management
-                  </li>
-                  <li>
-                    <img src="images/projects/classroom/slides.png" />
-                    Tailored Teaching Content
-                  </li>
-                  <li>
-                    <img src="images/projects/classroom/mutedmic.png" />
-                    Microphone Rights Control
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </section>
-    </div>
-    <div class="content" id="teacherteaching">
-        <section>
-            <h4>Students can learn anywhere, at their convenience.</h4>
-        </section>
-    </div>
-    <div class="content">
-        <section>
-            <div class="col-xs-12 center">
-                <div class="col-xs-12 padding-no center">
-                    <h3 style="font-weight:300;">Consistent Across The Board</h3>
-                </div>
-                <div class="col-md-2">
-                    <h4>Icons</h4>
-                    <p>
-                      Unique, tailor-made, cross-device, and readable.
-                    </p>
-                </div>
-                <div class="col-md-10">
-                    <img src="images/projects/classroom/classroom-icons@2x.jpg" style="width:100%;" />
-                </div>
-            </div>
-        </section>
-    </div>
-    <div class="content" id="classroom-isometric">
-        <section>
-            <h4>Fully featured, even on touch devices!</h4>
-        </section>
-    </div>
     <div class="content contribution" id="englishliveContribution">
       <section>
         <div class="col-xs-12 center">
           <p>
-            <strong>My title during this project was "Project Champion👑".
-              I was involved from early planning stages in October 2014, and went to work on
-              UX design for 3 platforms (web, tablet, mobile), visual design,
-              building interactive prototypes, user research and design validation.</strong>
-              In September 2015, the software was stable enough to conduct live
-              trials between teachers and students. We used this opportunity to
-              validate the work we had done on teachers usage.
-              <br />
-              The EF Classroom is currently in the late stages of global trials and is available to
-              select EF Education First students.
+            <strong>Context: </strong> Group Lessons and Private lessons are an opportunity
+            for English students to apply what they have learned during self-study with other
+            students and with a certified EF English teacher.
+            <br />
+            In order to take an online English Group Lesson,
+            students had to go through four main steps:
+          </p>
+            <ol style="list-style-type:decimal;">
+              <li>Pre-class &quot;Tech Check&quot;: verifying that they have proper audio setup and Adobe Flash.</li>
+              <li>Backend check with Adobe that a virtual Adobe Connect room is available (according to our license).</li>
+              <li>Queue for a teacher: waiting for a teacher to mark themselves as available to teach a session.</li>
+            </ol>
+          <p>
+          	<strong>The problem:</strong> when students were lined-up to enter the classroom (queued for a teacher), not
+            all of them was able to enter the classroom right away. With a wait time of up to 10 minutes, 
+            <strong>15% of all the students churned during this wait!</strong>
+            <br />
+            Why is this a problem? Not only are Group Lessons very beneficial to student's English
+            education, but EF also makes a fair share of their money from having students complete
+            Group (and Private) Lessons.
           </p>
           <p>
-            <strong>Team:</strong> User Experience &amp; Design @ EF Education First (Shanghai, China)
-          <br />
-            <strong>Role:</strong> User Experience Designer
+	          <strong>The hypothesis:</strong> students might churn less if we were more honest with them about what they were waiting for.
+          </p>
+          <p>
+          	<strong>The execution:</strong> what needed to happen is a cross-team effort in order
+          	to: <ul style="list-style-type: decimal;">
+          		<li>Better understand the steps we take in the background in order
+          		for student and teacher to meet.</li>
+          		<li>Decide how we can safely expose these steps to the students.</li>
+          		<li>Build an experience that effectively communicates these steps.</li>
+          		<li>A/B test the idea to see if it works.</li>
+          	</ul
+          </p>
+          <p>
+          	After going over a few interactions in Sketch, I built a prototype in Framer in order to give the developers an idea of what I had in mind, : (a tool I use regularly to communicate ideas for interactions and show them to stakeholders, or test them with potential users). In the spirit of speed, not all states we built into the prototype.
+          </p>
+          <iframe src="prototypes/classroom-casestudy.framer" width="1122" height="593" style="width: 1122px; height: 593px; position: relative; left: -25%;" name="classroom-casestudy-proto">
+          </iframe
+          <p>
+          	By showing a progress indicator like this, we were able to increase transparency with our students. The four backend steps required for students
+          	to make it into the classroom were now clear to them; they knew why they were waiting:
+          	<ul style="list-style-type: decimal;">
+          		<li>Entering the student queue (and determining their position)</li>
+          		<li>Generating the link for the Adobe Connect virtual classroom</li>
+          		<li>Waiting for the teacher to make themselves available to the class.</li>
+          		<li>Entering the classroom</li>
+          	</ul>
+          </p>
+          
+          <p>
+          	We A/B tested this idea by measuring student cohorts' "seat given" KPI before and after the change. <br />  <center>The news was amazing:</center>
           </p>
         </div>
       </section>
     </div>
+    <div class="content" id="casestudyouttro">
+            <section>
+              <div class="col-md-12 center">
+                <div class="col-xs-12">
+                  <h3 style="font-weight:300;">Churn was down to 1% !</h3>
+                </div>
+                <div class="col-xs-12" width="100%">
+                  <p>
+                    In a single sprint, we had reduced classroom churn by 14%.
+                  </p>
+                </div>
+              </div>
+    
+            </section>
+        </div>
+       <div class="content contribution">
+         <section>
+           <div class="col-xs-12 center">
+           	<p>
+           		Check out the EF English Live classroom at: <a href="http://englishlive.ef.com/en-wws/" title="EF English Live" alt="EF English Live">http://englishlive.ef.com/en-wws/</a>
+           	</p>
+             <p>
+               <strong>Team:</strong> User Experience &amp; Design @ EF Education First (Shanghai, China)
+             <br />
+               <strong>Role:</strong> User Experience Designer
+             </p>
+            </div>
+         </section>
+       </div>
     <footer>
         <p>&copy; Alexis Morin 2016</p>
         <ul class="socialicons">
