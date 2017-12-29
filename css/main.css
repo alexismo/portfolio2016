@@ -127,7 +127,13 @@ h1,
 h2 {
   margin: 0;
   padding: 0;
+  line-height: 1.5;
+}
+
+header h1,
+header h2 {
   text-transform: uppercase;
+  line-height: 1;
 }
 
 .row h1 {
@@ -237,7 +243,11 @@ footer .socialicons li a i.fa-twitter:hover {
 
 footer .socialicons li a i.fa-instagram:hover {
   transition: color 200ms ease;
-  color: #3f729b; /* insta color! */
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 2px;
+  margin: -2px;
 }
 
 footer .socialicons li a i.fa-github:hover {

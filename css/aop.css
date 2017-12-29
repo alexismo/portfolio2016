@@ -16,3 +16,11 @@
 .tagline {
   background-color: rgba(255, 255, 255, 0.8);
 }
+
+.aop-3up {
+  margin: 0 auto;
+}
+
+.aop-3up img {
+  width: 100%;
+}
