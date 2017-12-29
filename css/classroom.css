@@ -1,37 +1,37 @@
-.bdimg-classroom{
-    background-image: url('../images/projects/classroom/classroom-hero.jpg');
-    background-position: 50% 0;
+.bdimg-classroom {
+  background-image: url('../images/projects/classroom/classroom-hero.jpg');
+  background-position: 50% 0;
 }
 
-#classroomintro{
-    color:#fff;
-    background-color: #1a7fff;;
+#classroomintro {
+  color: #fff;
+  background-color: #1a7fff;
 }
 
-#teacherteaching{
+#teacherteaching {
   height: 550px;
-  color:#fff;
+  color: #fff;
   background-image: url('../images/projects/classroom/teacherteaching.jpg');
   background-repeat: no-repeat;
   background-position: center;
 }
 
-#classroom-isometric{
+#classroom-isometric {
   height: 684px;
-  color:#fff;
+  color: #fff;
   background-image: url('../images/projects/classroom/classroom-isometric.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.teacherfeatures{
+.teacherfeatures {
   text-align: left;
 }
 
-.teacherfeatures li{
+.teacherfeatures li {
   margin: 10px 0;
 }
 
-.teacherfeatures img{
+.teacherfeatures img {
   width: 60px;
 }

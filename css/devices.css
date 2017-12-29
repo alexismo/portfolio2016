@@ -1,188 +1,188 @@
 /* tablets in Portrait */
 @media only screen
   and (min-width: 735px)
-  and (max-width: 1024px){
+  and (max-width: 1024px) {
+  html {
+    font-size: 120%;
+  }
 
-    html{
-      font-size: 120%;
-    }
+  .topbar {
+    max-width: 720px;
+  }
 
-    .topbar{
-      max-width: 720px;
-    }
+  .topbar > div {
+    margin: 0 20px;
+  }
 
-    .topbar>div{
-      margin:0 20px;
-    }
+  section {
+    max-width: 768px;
+  }
 
-    section{
-      max-width: 768px;
-    }
+  .projectHero img {
+    width: auto;
+    height: 100%;
+    position: relative;
+  }
 
-    .projectHero img{
-      width: auto;
-      height: 100%;
-      position: relative;
-    }
+  #project-1 .projectHero img,
+  #project-2 .projectHero img,
+  #project-3 .projectHero img {
+    float: right; /* not all projects focus on the right side */
+  }
 
-    #project-1 .projectHero img, #project-2 .projectHero img, #project-3 .projectHero img{
-      float: right; /* not all projects focus on the right side*/
-    }
+  #project-2 .projectHero img {
+    margin-top: 0;
+  }
 
-    #project-2 .projectHero img {
-      margin-top:0;
-    }
-
-    #teacherteaching{
-      background-position: 93%;
-    }
+  #teacherteaching {
+    background-position: 93%;
+  }
 }
 
 /* iPhone 5, 6, and 6 Plus, Portrait and Landscape */
 @media only screen
   and (max-width: 736px)
-  and (min-width: 320px){
+  and (min-width: 320px) {
+  html {
+    /* font-size: 90%; */
+  }
 
-    html{
-      font-size:90%;
-    }
+  .body-img {
+    background-attachment: scroll;
+  }
 
-    .body-img{
-      background-attachment: scroll;
-    }
+  header {
+    margin-top: 0;
+  }
 
-    header{
-      margin-top: 0;
-    }
+  .topbar {
+    height: 124px;
+    flex-direction: column;
+  }
 
-    .topbar{
-      height: 124px;
-      flex-direction: column;
-    }
+  .topbar > div {
+    width: 100%;
+  }
 
-    .topbar>div{
-      width: 100%;
-    }
+  .logo {
+    text-align: center;
+  }
 
-    .logo{
-      text-align: center;
-    }
+  .header-logo {
+    height: 64px;
+    text-align: center;
+    justify-content: flex-end;
+  }
 
-    .header-logo{
-      height: 64px ;
-      text-align: center;
-      justify-content: flex-end;
-    }
+  .header-2 {
+    height: 60px;
+  }
 
-    .header-2{
-      height: 60px;
-    }
+  menu {
+    height: 60px;
+  }
 
-    menu{
-      height: 60px;
-    }
+  menu item {
+    height: 60px;
+  }
 
-    menu item{
-      height: 60px;
-    }
+  menu item a {
+    line-height: 60px;
+  }
 
-    menu item a{
-      line-height: 60px;
-    }
+  .topbar .header-social {
+    display: none;
+  }
 
-    .topbar .header-social{
-      display: none;
-    }
+  div.project {
+    padding: 0;
+  }
 
-    div.project{
-        padding: 0;
-    }
+  section.projects li {
+    height: 400px;
+  }
 
-    section.projects li {
-      height: 400px;
-    }
+  section.projects > div {
+    height: 400px;
+    overflow: hidden;
+  }
 
-    section.projects>div{
-      height: 400px;
-      overflow: hidden;
-    }
+  .projectDesc {
+    background-color: rgba(217, 217, 217, 0.8);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+  }
 
-    .projectDesc{
-        background-color: rgba(217,217,217,0.8);
-        display: flex;
-        flex-direction: column;
-        padding: 15px
-    }
+  .projectDesc img {
+    height: 105px;
+  }
 
-    .projectDesc img{
-        height: 105px;
-    }
+  .projectHero {
+    width: 100%;
+  }
 
-    .projectHero{
-      width: 100%;
-    }
+  .projectHero img {
+    position: relative;
+  }
 
-    .projectHero img{
-      position: relative;
-    }
+  #project-1 .projectHero img,
+  #project-2 .projectHero img,
+  #project-3 .projectHero img {
+    float: right; /* not all projects focus on the right side */
+  }
 
-    #project-1 .projectHero img, #project-2 .projectHero img, #project-3 .projectHero img{
-      float: right; /* not all projects focus on the right side*/
-    }
+  #project-2 .projectHero img,
+  #project-3 .projectHero img {
+    height: 100%;
+    margin-top: 0;
+    margin-right: -20%;
+  }
 
-    #project-2 .projectHero img, #project-3 .projectHero img{
-      height: 100%;
-      margin-top: 0;
-      margin-right:-20%;
-    }
+  #project-4 .projectTitle {
+    width: auto;
+  }
 
-    #project-4 .projectTitle{
-      width: auto;
-    }
+  .projects li img.overlay {
+    opacity: 1;
+  }
 
-    .projects li img.overlay {
-      opacity: 1;
-    }
+  .projectniceties {
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
 
-    .projectniceties{
-      width: auto;
-      margin-left: 0;
-      margin-right: 0;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      position: relative;
-    }
+  .projectniceties p {
+    margin-bottom: 0;
+  }
 
-    .projectniceties p{
-        margin-bottom: 0;
-    }
+  .viewProject {
+    height: auto;
+    width: 100%;
+    margin-top: 0;
+    position: absolute;
+    bottom: 36px;
+    color: #303033;
+    background: rgba(217, 217, 217, 0.8);
+    padding: 10px 0;
+  }
 
-    .viewProject{
-      height: auto;
-      width: 100%;
-      margin-top: 0;
-      position: absolute;
-      bottom: 36px;
-      color: #303033;
-      background: rgba(217,217,217,0.8);
-      padding: 10px 0;
-    }
+  .projectHero img {
+    height: 400px;
+  }
 
-    .projectHero img{
-      height: 400px;
-    }
+  h3.about {
+    text-align: left;
+  }
 
-    section.projects div img{
-    }
-
-    h3.about{
-      text-align: left;
-    }
-
-    #teacherteaching{
-      background-position: 93%;
-    }
+  #teacherteaching {
+    background-position: 93%;
+  }
 }
 
 /* Landscape */
@@ -191,35 +191,36 @@
   and (max-device-width: 690px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
-    .topbar{
-      height: 84px;
-      flex-direction:row;
-    }
+  .topbar {
+    height: 84px;
+    flex-direction: row;
+  }
 
-    .topbar>div{
-      width: 50%;
-    }
+  .topbar > div {
+    width: 50%;
+  }
 
-    .header-1 .logo{
-      height: 60px;
-      text-align: left;
-      padding-left: 20px;
-    }
+  .header-1 .logo {
+    height: 60px;
+    text-align: left;
+    padding-left: 20px;
+  }
 
-    menu, menu item{
-      height:84px;
-    }
+  menu,
+  menu item {
+    height: 84px;
+  }
 
-    menu item a{
-      line-height: 84px;
-    }
+  menu item a {
+    line-height: 84px;
+  }
 }
 
-/* for itty bitty things, like iPhone 4 sized things*/
+/* for itty bitty things, like iPhone 4 sized things */
 @media only screen
   and (max-height: 480px)
   and (-webkit-min-device-pixel-ratio: 2) {
-    section#intro {
-      padding-top: 5%;
-    }
+  section#intro {
+    padding-top: 5%;
   }
+}

@@ -2,52 +2,47 @@
   font-family: 'Noto Sans SC';
   font-style: normal;
   font-weight: 400;
-  src: url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff2) format('woff2'),
-       url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff) format('woff'),
-       url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.otf) format('opentype');
+  src: url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.otf) format('opentype');
 }
 
-@font-face{
-	font-family: 'proxima-nova-regular';
-	src: url('../fonts/prxnv-reg.eot');
-	src: url('../fonts/prxnv-reg.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/prxnv-reg.woff') format('woff'),
-	     url('../fonts/prxnv-reg.ttf') format('truetype'),
-	     url('../fonts/prxnv-reg.svg#webfont') format('svg');
+@font-face {
+  font-family: 'proxima-nova-regular';
+  src: url('../fonts/prxnv-reg.eot');
+  src: url('../fonts/prxnv-reg.eot?#iefix') format('embedded-opentype'), url('../fonts/prxnv-reg.woff') format('woff'), url('../fonts/prxnv-reg.ttf') format('truetype'), url('../fonts/prxnv-reg.svg#webfont') format('svg');
 }
 
-@font-face{
-	font-family: 'proxima-nova-bold';
-	src: url('../fonts/prxnv-bld.eot');
-	src: url('../fonts/prxnv-bld.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/prxnv-bld.woff') format('woff'),
-	     url('../fonts/prxnv-bld.ttf') format('truetype'),
-	     url('../fonts/prxnv-bld.svg#webfont') format('svg');
+@font-face {
+  font-family: 'proxima-nova-bold';
+  src: url('../fonts/prxnv-bld.eot');
+  src: url('../fonts/prxnv-bld.eot?#iefix') format('embedded-opentype'), url('../fonts/prxnv-bld.woff') format('woff'), url('../fonts/prxnv-bld.ttf') format('truetype'), url('../fonts/prxnv-bld.svg#webfont') format('svg');
 }
 
-@font-face{
-	font-family: 'proxima-nova-light';
-	src: url('../fonts/prxnv-lt.eot');
-	src: url('../fonts/prxnv-lt.eot?#iefix') format('embedded-opentype'),
-	     url('../fonts/prxnv-lt.woff') format('woff'),
-	     url('../fonts/prxnv-lt.ttf') format('truetype'),
-	     url('../fonts/prxnv-lt.svg#webfont') format('svg');
+@font-face {
+  font-family: 'proxima-nova-light';
+  src: url('../fonts/prxnv-lt.eot');
+  src: url('../fonts/prxnv-lt.eot?#iefix') format('embedded-opentype'), url('../fonts/prxnv-lt.woff') format('woff'), url('../fonts/prxnv-lt.ttf') format('truetype'), url('../fonts/prxnv-lt.svg#webfont') format('svg');
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 
-html{
-  font-size: 60%;
+html {
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
-body{
+body {
   color: #303033;
   font-family: 'proxima-nova-regular', 'Helvetica', sans-serif;
+  line-height: 1.5;
 }
 
-.body-img{
+.am-bold {
+  font-family: proxima-nova-bold, sans-serif;
+}
+
+.body-img {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -56,67 +51,66 @@ body{
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-
   z-index: -1;
   animation: fadeIn 3s;
   -webkit-animation: fadeIn 3s;
 }
 
-.bdimg-watertown{
-    background-image: url('../images/watertown.jpg');
+.bdimg-watertown {
+  background-image: url('../images/watertown.jpg');
 }
 
-header{
+header {
   margin-top: 80px;
   width: 100%;
   background-color: #444449;
 }
 
-header a{
-  color:#fff;
+header a {
+  color: #fff;
   line-height: 80px;
 }
 
-header a:hover, header a:focus{
+.header-logo a {
+  height: auto;
+  line-height: normal;
+}
+
+header a:hover,
+header a:focus {
   -webkit-transition: font-weight 200ms ease;
   -moz-transition: font-weight 200ms ease;
   -o-transition: font-weight 200ms ease;
   transition: font-weight 200ms ease;
-
-  color:#FFF;
+  color: #fff;
   font-family: "proxima-nova-regular", Roboto, sans-serif;
   font-weight: bold;
   text-decoration: none;
 }
 
-.socialicons a:hover, .socialicons a:focus{
+.socialicons a:hover,
+.socialicons a:focus {
   -webkit-transition: color 200ms ease;
   -moz-transition: color 200ms ease;
   -o-transition: color 200ms ease;
   transition: color 200ms ease;
-
-  color:#93939e;
+  color: #93939e;
   font-family: "proxima-nova-regular", Roboto, sans-serif;
   text-decoration: none;
 }
 
-.header-logo{
+.header-logo {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.header-logo a{
-  height: auto;
-  line-height: normal;
+.header-logo h1 a:hover {
+  font-family: "proxima-nova-bold", Roboto, sans-serif;
+  color: #fff;
 }
 
-.header-logo h1 a:hover{
-    font-family: "proxima-nova-bold", Roboto, sans-serif;
-    color: #fff;
-}
-
-.topbar{
+.topbar {
   max-width: 960px;
   height: 80px;
   margin: 0 auto;
@@ -125,31 +119,32 @@ header a:hover, header a:focus{
   color: #fff;
 }
 
-.topbar>div{
+.topbar > div {
   width: 33.333333%;
 }
 
-h1, h2{
+h1,
+h2 {
   margin: 0;
   padding: 0;
   text-transform: uppercase;
 }
 
-.row h1{
+.row h1 {
   font-family: "proxima-nova-bold", Roboto, sans-serif;
   font-size: 18px;
   letter-spacing: 1.12px;
   margin-bottom: 4px;
 }
 
-.row .header-logo h2{
+.row .header-logo h2 {
   font-family: "proxima-nova-light", Roboto, sans-serif;
   font-size: 18px;
   letter-spacing: 7.42px;
   color: #fff;
 }
 
-menu{
+menu {
   height: 80px;
   font-family: "proxima-nova-light", Roboto, sans-serif;
   font-size: 16px;
@@ -157,38 +152,38 @@ menu{
   flex-direction: row;
 }
 
-menu item{
-  /*width: 33.3333%;*/
+menu item {
+  /* width: 33.3333%; */
   width: 50%;
   height: 80px;
   text-align: center;
 }
 
-ul.socialicons{
+ul.socialicons {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
 }
 
-.socialicons li{
+.socialicons li {
   margin-left: 16px;
 }
 
-.socialicons li a:hover, .socialicons li a:active{
+.socialicons li a:hover,
+.socialicons li a:active {
   -webkit-transition: color 200ms ease;
   -moz-transition: color 200ms ease;
   -o-transition: color 200ms ease;
   transition: color 200ms ease;
 }
 
-section, footer{
+section,
+footer {
   max-width: 960px;
-  margin:0 auto;
-  font-size: 16px;
-  line-height: 22px;
+  margin: 0 auto;
 }
 
-footer{
+footer {
   width: 100%;
   height: 200px;
   display: flex;
@@ -196,144 +191,142 @@ footer{
   justify-content: center;
 }
 
-footer p{
-    text-align: center;
+footer p {
+  text-align: center;
 }
 
-footer .socialicons{
-    justify-content: center;
+footer .socialicons {
+  justify-content: center;
 }
 
-footer .socialicons li{
-    margin: 5px 16px;
+footer .socialicons li {
+  margin: 5px 16px;
 }
 
-footer .socialicons a{
-    color: #303033;
+footer .socialicons a {
+  color: #303033;
 }
 
-footer #hand{
-    display: inline-block;
-    transform-origin: 30% 60%;
-    transform: scale(1.0);
-    transition: transform 200ms ease;
+footer #hand {
+  display: inline-block;
+  transform-origin: 30% 60%;
+  transform: scale(1);
+  transition: transform 200ms ease;
 }
 
-footer #hand:hover{
-    animation: handwave 0.8s infinite;
-    transition: transform 200ms ease;
+footer #hand:hover {
+  animation: handwave 0.8s infinite;
+  transition: transform 200ms ease;
 }
 
-footer #heart{
-    transition: transform 150ms ease;
+footer #heart {
+  transition: transform 150ms ease;
 }
 
-footer #heart:hover{
-    display: inline-block;
-    transform: rotate(-90deg);
-    color: #E273D9;
-    transition: color transform 150ms ease;
+footer #heart:hover {
+  display: inline-block;
+  transform: rotate(-90deg);
+  color: #e273d9;
+  transition: color transform 150ms ease;
 }
 
-footer .socialicons li a i.fa-twitter:hover{
-    transition: color 200ms ease;
-    color: #00aced;/* twitter color! */
+footer .socialicons li a i.fa-twitter:hover {
+  transition: color 200ms ease;
+  color: #00aced; /* twitter color! */
 }
 
-footer .socialicons li a i.fa-instagram:hover{
-    transition: color 200ms ease;
-    color: #3F729B;/* insta color! */
+footer .socialicons li a i.fa-instagram:hover {
+  transition: color 200ms ease;
+  color: #3f729b; /* insta color! */
 }
 
-footer .socialicons li a i.fa-github:hover{
-    transition: color 200ms ease;
-    color: rgb(125, 125, 125);/* github color! */
+footer .socialicons li a i.fa-github:hover {
+  transition: color 200ms ease;
+  color: rgb(125, 125, 125); /* github color! */
 }
 
-footer .socialicons li a i.fa-dribbble:hover{
-    transition: color 200ms ease;
-    color: #F46899;/* dribbble color! */
+footer .socialicons li a i.fa-dribbble:hover {
+  transition: color 200ms ease;
+  color: #f46899; /* dribbble color! */
 }
 
-footer .socialicons li a i.fa-envelope-o:hover{
-    transition: color 200ms ease;
-    color: #94B1F5;/* email color? */
+footer .socialicons li a i.fa-envelope-o:hover {
+  transition: color 200ms ease;
+  color: #94b1f5; /* email color? */
 }
 
-.padding-tb{
-    padding-left: 0px !important;
-    padding-right: 0px !important;
-    padding-top: 12%;
-    padding-bottom: 12%;
+.padding-tb {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-top: 12%;
+  padding-bottom: 12%;
 }
 
 .padding-xs {
-    padding-left: 50px !important;
-    padding-right: 50px !important;
-    padding-top: 50px;
-    padding-bottom: 50px;
+  padding-left: 50px !important;
+  padding-right: 50px !important;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
-.tagline{
-    width: 100%;
-    max-width: 960px;
-    margin:0 auto;
-    background-color: #fff;
-    text-align: center;
-    padding: 25px;
-    font-size: 300%;
-    position: relative;
-    top: 40%;
+.tagline {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  background-color: #fff;
+  text-align: center;
+  padding: 25px;
+  font-size: 300%;
+  position: relative;
+  top: 40%;
 }
 
-.content{
-    width: 100%;
+.content {
+  width: 100%;
 }
 
-.content section h4{
-    width: 100%;
-    font-size: 150%;
-    text-align: center;
-    font-family: "proxima-nova-light", Roboto, sans-serif;
+.content section h4 {
+  width: 100%;
+  font-size: 150%;
+  text-align: center;
+  font-family: "proxima-nova-light", Roboto, sans-serif;
 }
 
-.content section{
-    text-align: center;
-    padding: 40px 0;
-
-    display: flex;
-    flex-direction:row;
-    justify-content: space-between;
+.content section {
+  text-align: center;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.content i{
-  font-style:italic;
+.content i {
+  font-style: italic;
 }
 
-.content section p{
-    padding: 10px 0 10px 0;
-    font-size: 100%;
-    font-family: "proxima-nova-regular", Roboto, sans-serif;
-    margin: 0 auto;
+.content section p {
+  padding: 10px 0 10px 0;
+  font-family: "proxima-nova-regular", Roboto, sans-serif;
+  margin: 0 auto;
 }
 
-.contribution section{
+.contribution section {
   text-align: left;
   max-width: 800px;
 }
 
-section#intro{
+section#intro {
   display: flex;
   flex-direction: column;
   line-height: inherit;
   justify-content: center;
 }
 
-section#intro p{
+section#intro p {
   text-align: center;
 }
 
-section.projects li{
+section.projects li {
   max-width: 960px;
   width: 100%;
   height: 470px;
@@ -341,29 +334,26 @@ section.projects li{
   overflow: hidden;
 }
 
-div.project{
+div.project {
   height: 100%;
   padding: 36px 50px;
 }
 
-.projectDesc{
+.projectDesc {}
 
-}
-
-.projectniceties{
+.projectniceties {
   width: 277px;
   height: 100%;
-  position:relative;
+  position: relative;
 }
 
-.projectniceties p{
-  margin-top:10px;
+.projectniceties p {
+  margin-top: 10px;
 }
 
-.projectTitle{
-}
+.projectTitle {}
 
-.viewProject{
+.viewProject {
   font-family: "proxima-nova-light", Roboto, sans-serif;
   text-transform: uppercase;
   font-size: 20px;
@@ -371,55 +361,54 @@ div.project{
   position: absolute;
 }
 
-.viewProject a{
-    color: #303033;
-    text-decoration: none;
+.viewProject a {
+  color: #303033;
+  text-decoration: none;
 }
 
-.viewProject a.white{
-  color:#fff;
+.viewProject a.white {
+  color: #fff;
 }
 
-.viewProject a:hover{
-    text-decoration: none;
+.viewProject a:hover {
+  text-decoration: none;
 }
 
-.viewProject a:hover .rightChevron{
+.viewProject a:hover .rightChevron {
   margin-left: 35px;
-
   -webkit-transition: margin 250ms ease;
   -moz-transition: margin 250ms ease;
   -o-transition: margin 250ms ease;
   transition: margin 250ms ease;
 }
 
-#project-1 .viewProject, #project-4 .viewProject{
+#project-1 .viewProject,
+#project-4 .viewProject {
   color: white;
 }
 
-#project-2 .rightChevron{
+#project-2 .rightChevron {
   fill: #303033;
 }
 
-#project-2 .projectHero{
-  background: linear-gradient(0, #EDEDED, #E9E9EB);
+#project-2 .projectHero {
+  background: linear-gradient(0deg, #ededed, #e9e9eb);
 }
 
-#project-4 .projectTitle{
+#project-4 .projectTitle {
   width: 300px;
 }
 
-.rightChevron{
+.rightChevron {
   margin-left: 17px;
   margin-top: -4px;
-
   -webkit-transition: margin 250ms ease;
   -moz-transition: margin 250ms ease;
   -o-transition: margin 250ms ease;
   transition: margin 250ms ease;
 }
 
-.projectHero{
+.projectHero {
   width: 100%;
   max-width: 960px;
   height: 470px;
@@ -430,41 +419,38 @@ div.project{
   opacity: 1;
 }
 
-.projectHero img{
+.projectHero img {
   position: absolute;
   width: 960px;
   min-height: 400px;
-  -webkit-transform:scale(1.0);
-  transform:scale(1.0)
-
+  -webkit-transform: scale(1);
+  transform: scale(1);
   -webkit-transition: -webkit-transform 4.5s, opacity 4.5s;
   transition: transform 4.5s, opacity 4.5s;
-
   transform-origin: 70% 60%;
   -webkit-transform-origin: 70% 60%;
 }
 
-.projects li img.overlay{
+.projects li img.overlay {
   opacity: 0;
 }
 
-.projects li:hover img.overlay{
-
-  -webkit-transform:scale(1.05);
-  transform:scale(1.05);
+.projects li:hover img.overlay {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
   opacity: 1;
 }
 
-.projects li:hover img.underlay{
-  -webkit-transform:scale(1.05);
-  transform:scale(1.05);
+.projects li:hover img.underlay {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
-.downchevron{
+.downchevron {
   width: 150px;
   margin: 0 auto;
   position: relative;
-  top:-100px;
+  top: -100px;
   margin-bottom: -26px;
   cursor: pointer;
   text-align: center;
@@ -472,41 +458,46 @@ div.project{
   font-size: 16px;
 }
 
-.downchevron img{
+.downchevron img {
   margin-top: 7px;
 }
 
-div.homegreeting{
+div.homegreeting {
   margin-top: -10%;
 }
 
-p.greeting{
+p.greeting {
   font-family: "proxima-nova-regular", Roboto, sans-serif;
   font-size: 60px;
   letter-spacing: 3px;
 }
 
-p.role{
+p.role {
   font-family: "proxima-nova-light", Roboto, sans-serif;
   font-weight: 300;
   font-size: 32px;
   letter-spacing: 1.6px;
 }
 
-span.chinese{
+span.chinese {
   font-family: 'Noto Sans SC', sans-serif;
   font-weight: 500;
 }
 
 @keyframes fadeIn {
   0% {
-    opacity: 0; }
-
+    opacity: 0;
+  }
   100% {
-    opacity: 1; } }
+    opacity: 1;
+  }
+}
 
 @keyframes handwave {
   0%, 100% {
-      transform: rotate(-15deg) scale(1.3);}
-  50% {transform: rotate(15deg) scale(1.3); }
+    transform: rotate(-15deg) scale(1.3);
+  }
+  50% {
+    transform: rotate(15deg) scale(1.3);
+  }
 }
