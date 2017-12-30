@@ -88,6 +88,10 @@ header a:focus {
   text-decoration: none;
 }
 
+footer .socialicons a {
+  color: #303033;
+}
+
 .socialicons a:hover,
 .socialicons a:focus {
   -webkit-transition: color 200ms ease;
@@ -158,7 +162,7 @@ menu {
   flex-direction: row;
 }
 
-menu item {
+menu menuitem {
   /* width: 33.3333%; */
   width: 50%;
   height: 80px;
@@ -207,10 +211,6 @@ footer .socialicons {
 
 footer .socialicons li {
   margin: 5px 16px;
-}
-
-footer .socialicons a {
-  color: #303033;
 }
 
 footer #hand {
@@ -303,7 +303,7 @@ footer .socialicons li a i.fa-envelope-o:hover {
 }
 
 .content section {
-  text-align: center;
+  /* text-align: center; */
   padding: 40px 0;
   display: flex;
   flex-direction: row;
@@ -317,7 +317,19 @@ footer .socialicons li a i.fa-envelope-o:hover {
 .content section p {
   padding: 10px 0 10px 0;
   font-family: "proxima-nova-regular", Roboto, sans-serif;
-  margin: 0 auto;
+
+  /* margin: 0 auto; */
+  max-width: 800px;
+}
+
+figure {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+figcaption {
+  margin-top: 12px;
 }
 
 .contribution section {
@@ -348,8 +360,6 @@ div.project {
   height: 100%;
   padding: 36px 50px;
 }
-
-.projectDesc {}
 
 .projectniceties {
   width: 277px;
@@ -498,16 +508,22 @@ span.chinese {
   0% {
     opacity: 0;
   }
+
   100% {
     opacity: 1;
   }
 }
 
 @keyframes handwave {
-  0%, 100% {
+  0% {
     transform: rotate(-15deg) scale(1.3);
   }
+
   50% {
     transform: rotate(15deg) scale(1.3);
+  }
+
+  100% {
+    transform: rotate(-15deg) scale(1.3);
   }
 }
