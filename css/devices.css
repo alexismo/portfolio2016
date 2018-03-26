@@ -129,15 +129,21 @@
 
   #project-1 .projectHero img,
   #project-2 .projectHero img,
-  #project-3 .projectHero img, {
+  #project-3 .projectHero img,
+  #project-5 .projectHero img {
     float: right; /* not all projects focus on the right side */
   }
 
   #project-2 .projectHero img,
-  #project-3 .projectHero img {
+  #project-3 .projectHero img,
+  #project-5 .projectHero img {
     height: 100%;
     margin-top: 0;
     margin-right: -20%;
+  }
+
+  #project-5 .projectHero img {
+    margin-right: -247px;
   }
 
   #project-4 .projectTitle {
