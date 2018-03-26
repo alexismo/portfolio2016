@@ -348,12 +348,19 @@ section#intro p {
   text-align: center;
 }
 
+section.projects ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 section.projects li {
   max-width: 960px;
   width: 100%;
   height: 470px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 40px
 }
 
 div.project {

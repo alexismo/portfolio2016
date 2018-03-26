@@ -26,7 +26,8 @@
 
   #project-1 .projectHero img,
   #project-2 .projectHero img,
-  #project-3 .projectHero img {
+  #project-3 .projectHero img,
+  #project-5 .projectHero img, {
     float: right; /* not all projects focus on the right side */
   }
 
@@ -128,7 +129,7 @@
 
   #project-1 .projectHero img,
   #project-2 .projectHero img,
-  #project-3 .projectHero img {
+  #project-3 .projectHero img, {
     float: right; /* not all projects focus on the right side */
   }
 
