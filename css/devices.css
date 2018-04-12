@@ -190,6 +190,11 @@
   #teacherteaching {
     background-position: 93%;
   }
+
+  .workwithlogo{
+    padding: 15px;
+    text-align: center;
+  }
 }
 
 /* Landscape */
