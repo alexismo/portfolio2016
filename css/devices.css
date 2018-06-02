@@ -190,6 +190,11 @@
     text-align: left;
   }
 
+  #about_side_projects .row .col-sm-6{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
   #teacherteaching {
     background-position: 93%;
   }
