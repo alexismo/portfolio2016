@@ -43,8 +43,8 @@
 @media only screen
   and (max-width: 736px)
   and (min-width: 320px) {
-  html {
-    /* font-size: 90%; */
+  body {
+    font-size: 115%;
   }
 
   .body-img {
