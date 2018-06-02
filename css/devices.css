@@ -18,12 +18,6 @@
     max-width: 768px;
   }
 
-  .projectHero img {
-    width: auto;
-    height: 100%;
-    position: relative;
-  }
-
   #project-1 .projectHero img,
   #project-2 .projectHero img,
   #project-3 .projectHero img,
@@ -37,6 +31,11 @@
 
   #teacherteaching {
     background-position: 93%;
+  }
+
+  .workwithlogo{
+    padding: 15px;
+    text-align: center;
   }
 }
 
@@ -100,11 +99,11 @@
   }
 
   section.projects li {
-    height: 400px;
+    height: 470px;
   }
 
   section.projects > div {
-    height: 400px;
+    height: 470px;
     overflow: hidden;
   }
 
@@ -127,9 +126,15 @@
     position: relative;
   }
 
+  .projectHero img.overlay {
+    opacity: 1;
+    margin-top: -470px;
+  }
+
   #project-1 .projectHero img,
   #project-2 .projectHero img,
   #project-3 .projectHero img,
+  #project-4 .projectHero img,
   #project-5 .projectHero img {
     float: right; /* not all projects focus on the right side */
   }
@@ -137,8 +142,6 @@
   #project-2 .projectHero img,
   #project-3 .projectHero img,
   #project-5 .projectHero img {
-    height: 100%;
-    margin-top: 0;
     margin-right: -20%;
   }
 
@@ -180,7 +183,7 @@
   }
 
   .projectHero img {
-    height: 400px;
+    height: 470px;
   }
 
   h3.about {
