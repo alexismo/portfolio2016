@@ -1,26 +1,40 @@
 @font-face {
-  font-family: 'Noto Sans SC';
+  font-family: "Noto Sans SC";
   font-style: normal;
   font-weight: 400;
-  src: url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff2) format('woff2'), url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff) format('woff'), url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.otf) format('opentype');
+  src: url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff2)
+      format("woff2"),
+    url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.woff)
+      format("woff"),
+    url(//fonts.gstatic.com/ea/notosanssc/v1/NotoSansSC-Regular.otf)
+      format("opentype");
 }
 
 @font-face {
-  font-family: 'proxima-nova-regular';
-  src: url('../fonts/prxnv-reg.eot');
-  src: url('../fonts/prxnv-reg.eot?#iefix') format('embedded-opentype'), url('../fonts/prxnv-reg.woff') format('woff'), url('../fonts/prxnv-reg.ttf') format('truetype'), url('../fonts/prxnv-reg.svg#webfont') format('svg');
+  font-family: "proxima-nova-regular";
+  src: url("../fonts/prxnv-reg.eot");
+  src: url("../fonts/prxnv-reg.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/prxnv-reg.woff") format("woff"),
+    url("../fonts/prxnv-reg.ttf") format("truetype"),
+    url("../fonts/prxnv-reg.svg#webfont") format("svg");
 }
 
 @font-face {
-  font-family: 'proxima-nova-bold';
-  src: url('../fonts/prxnv-bld.eot');
-  src: url('../fonts/prxnv-bld.eot?#iefix') format('embedded-opentype'), url('../fonts/prxnv-bld.woff') format('woff'), url('../fonts/prxnv-bld.ttf') format('truetype'), url('../fonts/prxnv-bld.svg#webfont') format('svg');
+  font-family: "proxima-nova-bold";
+  src: url("../fonts/prxnv-bld.eot");
+  src: url("../fonts/prxnv-bld.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/prxnv-bld.woff") format("woff"),
+    url("../fonts/prxnv-bld.ttf") format("truetype"),
+    url("../fonts/prxnv-bld.svg#webfont") format("svg");
 }
 
 @font-face {
-  font-family: 'proxima-nova-light';
-  src: url('../fonts/prxnv-lt.eot');
-  src: url('../fonts/prxnv-lt.eot?#iefix') format('embedded-opentype'), url('../fonts/prxnv-lt.woff') format('woff'), url('../fonts/prxnv-lt.ttf') format('truetype'), url('../fonts/prxnv-lt.svg#webfont') format('svg');
+  font-family: "proxima-nova-light";
+  src: url("../fonts/prxnv-lt.eot");
+  src: url("../fonts/prxnv-lt.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/prxnv-lt.woff") format("woff"),
+    url("../fonts/prxnv-lt.ttf") format("truetype"),
+    url("../fonts/prxnv-lt.svg#webfont") format("svg");
 }
 
 * {
@@ -34,7 +48,7 @@ html {
 
 body {
   color: #303033;
-  font-family: 'proxima-nova-regular', 'Helvetica', sans-serif;
+  font-family: "proxima-nova-regular", "Helvetica", sans-serif;
   line-height: 1.5;
 }
 
@@ -57,7 +71,7 @@ body {
 }
 
 .bdimg-watertown {
-  background-image: url('../images/watertown.jpg');
+  background-image: url("../images/watertown.jpg");
 }
 
 header {
@@ -243,7 +257,14 @@ footer .socialicons li a i.fa-twitter:hover {
 
 footer .socialicons li a i.fa-instagram:hover {
   transition: color 200ms ease;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 2px;
@@ -322,6 +343,10 @@ footer .socialicons li a i.fa-envelope-o:hover {
   max-width: 800px;
 }
 
+figure * {
+  margin: 0 auto;
+}
+
 figure {
   padding: 12px;
   display: flex;
@@ -330,6 +355,7 @@ figure {
 
 figcaption {
   margin-top: 12px;
+  margin: 0 auto;
 }
 
 .contribution section {
@@ -360,7 +386,7 @@ section.projects li {
   height: 470px;
   position: relative;
   overflow: hidden;
-  margin-bottom: 40px
+  margin-bottom: 40px;
 }
 
 div.project {
@@ -378,7 +404,8 @@ div.project {
   margin-top: 10px;
 }
 
-.projectTitle {}
+.projectTitle {
+}
 
 .viewProject {
   font-family: "proxima-nova-light", Roboto, sans-serif;
@@ -506,7 +533,7 @@ p.role {
 }
 
 span.chinese {
-  font-family: 'Noto Sans SC', sans-serif;
+  font-family: "Noto Sans SC", sans-serif;
   font-weight: 500;
 }
 

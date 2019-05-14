@@ -103,13 +103,150 @@
                 harmonize the divergent styles presented in its products.
               </p>
               <p>
-                The Flame design system is a collaborative living set of multidisciplinary tools from that helps Lightspeed employees create 
+                The Flame design system is a collaborative living set of multidisciplinary tools that helps Lightspeed employees create 
                 unified experiences for its customers.
               </p>
             </div>
           </div>
         </section>
     </div>
+
+    <div class="content contribution">
+      <section>
+        <div class="col-xs-12 center">
+          <p>
+              My contribution to the project was to:
+               <ul style="list-style-type:circle;">
+                 <li>produce and evolve the team Sketch shared library,</li>
+                 <li>build an ultimately successful business case to management for a dedicated Design Systems team,</li>
+                 <li>use an innersource model to facilitate discussions and contributions between siloed teams of >20 front-end and designers,</li>
+                 <li>correctly identify, design, and include new components, patterns, and best practices into the Design System,</li>
+                 <li>develop the roadmap for the Design System and present this as OKRs to management,</li>
+                 <li>design, write, publish, and evangelize a Design System Documentation website.</li>
+               </ul>
+              <br />
+              At time of writing, Flame is in active use at Lightspeed. It powers <strong>10 teams</strong>, 
+              <strong>5 products</strong>, and <strong>30 Lightspeeders</strong> to deliver value to our customers.
+          </p>
+          <p>
+            <span class='am-bold'>Company:</span> Lightspeed POS
+          <br />
+            <span class='am-bold'>Team:</span> Guillaume Lambert, Xavier Drdak, Maarten Afink, Karan Shahani, Kevin Vicrey
+          <br />
+            <span class='am-bold'>Role:</span> Product Designer, Front-End Developer, Product Manager
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <div class="content">
+      <section>
+          <div class="col-md-12">
+            <div class="col-12">
+              <h2>What was my process?</h2>
+              <h3>1. Humble beginnings (CSS)</h3>
+              <p>
+                Starting in 2016, I noticed that most design work at Lightspeed was inconsistent at many levels. Having worked on a Design System
+                previously at EF, I understood how to this problem could be remedied. My first step was to find an allies among the Front-end development
+                guild. From there, we explored the idea of building a Design System, and how this might benefit UX Design and Front-end development.
+              </p>
+              <p>
+                The first few components were made from Sketch to CSS tokens. We decided to leverage a small project as a proof-of-concept.
+                Getting buy-in from PMs and other developers across the organization was critical: a small time investment up-front in exchange
+                for more quality, speed, and consistency in the future.
+              </p>
+            </div>
+            <div class="col-12 center">
+                <figure>
+                    <img width="100%" src="images/projects/flame/early-cirrus.jpg" 
+                    srcset="images/projects/flame/early-cirrus.jpg 1x, images/projects/flame/early-cirrus@2x.jpg 2x" 
+                    alt="UI design for the Design System proof-of-concept" style="max-width: 680px;" />
+                    <figcaption>
+                        UI design for the Design System proof-of-concept
+                    </figcaption>
+                </figure>
+            </div>
+            <div class="col-12">
+                <h3>2. Growth & team buy-in (contributions & React)</h3>
+                <p>
+                  Developers and designers were gaining interest in the Design System. All Designers were already using the Sketch and Framer libraries
+                  we had created for ultra-fast UI design and prototyping.
+                </p>
+                <p>
+                  Developers from other teams who saw value in this Design System started using it and contributing back to it. This was amazing!
+                  Very quickly, the number of components available to us was growing due to the positive feedback loop that the team had initiated.
+                </p>
+                <p>
+                  In an collaborative decision, the contributors decided to evolve the CSS tokens & shared components styles to React.
+                </p>
+                <p>
+                  The move React components empowered designers to bring more types of components to the Design System.
+                </p>
+                <p>
+                  For example, I worked to automate the creation of icons from Sketch-exported SVGs to  
+                  React icon components with customizable 3-tone style.
+                </p>
+                  <figure>
+                    <img width="100%" src="images/projects/flame/flame-icons.svg" 
+                    alt="Sample of the icon set created as React components" />
+                    <figcaption>
+                        Sample of the icon set created as React components
+                    </figcaption>
+                </figure>
+                </p>
+            </div>
+            <div class="col-12">
+              <h3>3. Tabular expansion</h3>
+              <p>Realizing the power the Design System and some lackluster features in some of our products,
+                I rallied designers from each of the major 3 web products from Lightspeed in order to collaborate on the 
+                design and conceptualization of a Table component: arguably the most complex component we would have.
+              </p>
+              <p>To be useful for all designers, designer and, most importantly, customers, 
+                this Table component would have to support many workflows and modalities. I led interface inventories, competitive
+                analyses, and many design workshops with stakeholders in order to get this right.
+              </p>
+              <p>
+                We agreed on a design which supported all of the features the Table should have: 
+                <strong>listing</strong>,
+                <strong>search</strong>,
+                <strong>sorting</strong>,
+                <strong>filtering</strong>,
+                <strong>summarizing</strong>,
+                <strong>paginating</strong>,
+                <strong>and more</strong>,
+              </p>
+              <div class="col-12 center">
+                  <figure>
+                      <img width="100%" src="images/projects/flame/filterTable.jpg" 
+                      srcset="images/projects/flame/filterTable.jpg 1x, images/projects/flame/filterTable@2x.jpg 2x" 
+                      alt="Filter Table from the Flame Design System" />
+                      <figcaption>
+                          Filter Table from the Flame Design System
+                      </figcaption>
+                  </figure>
+              </div>
+              <p>
+                Moreover, I built a total of s9 interactive prototypes for the Table's filtering behaviour in order to test out assumptions
+                about how the Table could be used. This test was massively successful in identifying the wins and flaws of the table.
+              </p>
+              <p>Link to the <a href="https://framer.cloud/KHpwX" target="_blank">Framer Table Filtering Prototype</a></p>
+              <p>
+                During this process of building the prototype, I learned how to use <code>map</code> and <code>filter</code> functions, 
+                fetch mock data from the network, optmize rendering, and write modular single-resposibility code.
+              </p>
+              <p>I am very pleased that the Table is now an integral part of the Design System and in use by all product teams.</p>
+            </div>
+            <div class="col-12">
+                <h3>4. Birth of a team</h3>
+                <p>
+                  After a year and a half of building the Design System in a distributed way, I suggested to some key stakeholders
+                  that we should make a push to further increase the velocity of the Design System.
+                </p>
+            </div>
+          </div>
+      </section>
+  </div>
+
     <div class="content">
       <section>
         <div class="col-md-12 center">
@@ -127,48 +264,7 @@
           </div>
       </section>
       </div>
-    <div class="content">
-        <section>
-            <div class="col-md-12">
-              <div class="col-12">
-                <h2>World Record Cam</h2>
-                <p>
-                  To celebrate Jaguar's 80th anniversary, an F-PACE drove a world-record breaking 360&deg; loop.
-                  This amazing accomplisment was recorded from many angles, and with high-speed cameras, to be
-                  shared with the world.
-                </p>
-                <p>
-                  In this activation, participants could dress up as legendary stunt driver Terry Grant, and
-                  snap a F-PACE themed high-speed motion-photo to be shared on social media.
-                </p>
-              </div>
-              <div class="col-md-6">
-                <figure width="100%">
-                  <img src="images/projects/aop/photo_booth_1.jpg"
-                    title="Jaguar-themed backdrop for taking the motion-photo"
-                    alt="Jaguar-themed backdrop for taking the motion-photo" width="100%" />
-                    <figcaption>
-                      Jaguar-themed backdrop for taking the motion-photo
-                    </figcaption>
-                </figure>
-              </div>
-              <div class="col-md-6">
-                <figure>
-                    <video class="share-video" id="share-video" preload="none"
-                      poster="images/projects/aop/slo-mo-capture.jpg" controls="" muted="true" height="331"
-                      onclick="this.paused?this.play():this.pause();">
-                      <source id="webmSource" src="images/projects/aop/slo-mo-capture.webm" type="video/webm" />
-                      <source id="mp4Source" src="images/projects/aop/slo-mo-capture.mp4" type="video/mp4" />
-                      <img title="Sorry, your browser doesn't support HTML5 video." src="images/projects/aop/slo-mo-capture.jpg" />
-                    </video>
-                    <figcaption>
-                      Slo-mo souvenir, shareable on WeChat
-                    </figcaption>
-                </figure>
-              </div>
-            </div>
-        </section>
-    </div>
+    
     <div class="content">
         <section>
             <div class="col-md-12">
@@ -193,25 +289,7 @@
             </div>
         </section>
     </div>
-    <div class="content">
-        <section>
-          <div class="col-md-12">
-            <figure>
-                <video class="share-video" id="share-video" preload="none"
-                  poster="images/projects/aop/reactive-wall-loop-poster.jpg" controls="" muted="true"
-                  onclick="this.paused?this.play():this.pause();" width="100%">
-                  <source id="webmSource" src="images/projects/aop/reactive-wall-loop.webm" type="video/webm" />
-                  <source id="mp4Source" src="images/projects/aop/reactive-wall-loop.mp4" type="video/mp4" />
-                  <img title="Sorry, your browser doesn't support HTML5 video." src="images/projects/aop/reactive-wall-loop-poster.jpg" />
-                </video>
-                <figcaption>
-                  Video compilation of the effects available on the reactive wall. <br />
-                  Large spots of particles indicate a person passing by.
-                </figcaption>
-            </figure>
-          </div>
-        </section>
-    </div>
+    
     <div class="content">
         <section>
             <div class="col-md-12">
@@ -252,34 +330,6 @@
               </div>
             </div>
         </section>
-    </div>
-
-    <div class="content contribution">
-      <section>
-        <div class="col-xs-12 center">
-          <p>
-              My contribution to the project was to:
-               <ul style="list-style-type:circle;">
-                 <li>imagine concepts for digital activations,</li>
-                 <li>validate concepts for brand and cultural fit,</li>
-                 <li>implement software, and design hardware for photo booth installation,</li>
-                 <li>produce design and experience specifications for distribution to remote development teams,</li>
-                 <li>ensure quality, stability, and deployability of activations.</li>
-               </ul>
-              <br />
-              The Art of Performance Tour was deployed in 20 cities across China from January to March 2016.
-          </p>
-          <p>
-            <span class='am-bold'>Client:</span> Jaguar Land Rover&trade;
-          <br />
-            <span class='am-bold'>Team:</span> Mauricio Estrella, Sam McMorran, Samuel Walsh, Iain Greenhalgh
-          <br />
-            <span class='am-bold'>Agency:</span> The Imagination Group
-					<br />
-            <span class='am-bold'>Role:</span> Senior Creative
-          </p>
-        </div>
-      </section>
     </div>
     <footer>
         <p>&copy; Alexis Morin 2018</p>
