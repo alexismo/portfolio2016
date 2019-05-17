@@ -118,14 +118,22 @@
               My contribution to the project was to:
                <ul style="list-style-type:circle;">
                  <li>produce and evolve the team Sketch shared library,</li>
-                 <li>build an ultimately successful business case to management for a dedicated Design Systems team,</li>
                  <li>use an innersource model to facilitate discussions and contributions between siloed teams of >20 front-end and designers,</li>
-                 <li>correctly identify, design, and include new components, patterns, and best practices into the Design System,</li>
+                 <li>build an ultimately successful business case to management for a dedicated Design Systems team,</li>
                  <li>develop the roadmap for the Design System and present this as OKRs to management,</li>
                  <li>design, write, publish, and evangelize a Design System Documentation website.</li>
+                 <li>correctly identify, design, and include new components, patterns, and best practices into the Design System,</li>
                </ul>
               <br />
-              At time of writing, Flame is in active use at Lightspeed. It powers <strong>10 teams</strong>, 
+              To date, the Lightspeed Flame Design System contains:
+              <ul style="list-style-type:circle;">
+                <li>an Abstract-versionned Sketch library of shared components and styles,</li>
+                <li>> 30 components written in React and published to NPM</li>
+                <li>Product Content guidelines for writing within Lightspeed products,</li>
+                <li>a website of 51 pages documenting all components, best practices, code samples, and APIs for all components</li>
+                <li>Framer Classic and FramerX libraries for high-fidelity interactive prototyping using the Design System components</li>
+              </ul>
+              At the time of writing, Flame is in active use at Lightspeed by <strong>all</strong> web front-end teams. It powers <strong>10 teams</strong>, 
               <strong>5 products</strong>, and <strong>30 Lightspeeders</strong> to deliver value to our customers.
           </p>
           <p>
@@ -134,6 +142,10 @@
             <span class='am-bold'>Team:</span> Guillaume Lambert, Xavier Drdak, Maarten Afink, Karan Shahani, Kevin Vicrey
           <br />
             <span class='am-bold'>Role:</span> Product Designer, Front-End Developer, Product Manager
+            <br />
+            <span class='am-bold'>Timeline:</span> 2016-2019 (ongoing)
+            <br />
+            <span class='am-bold'>Status:</span> in active use
           </p>
         </div>
       </section>
@@ -143,7 +155,7 @@
       <section>
           <div class="col-md-12">
             <div class="col-12">
-              <h2>What was my process?</h2>
+              <h2>How did this happen? What was my process?</h2>
               <h3>1. Humble beginnings (CSS)</h3>
               <p>
                 Starting in 2016, I noticed that most design work at Lightspeed was inconsistent at many levels. Having worked on a Design System
@@ -162,7 +174,7 @@
                     srcset="images/projects/flame/early-cirrus.jpg 1x, images/projects/flame/early-cirrus@2x.jpg 2x" 
                     alt="UI design for the Design System proof-of-concept" style="max-width: 680px;" />
                     <figcaption>
-                        UI design for the Design System proof-of-concept
+                        UI design for the Design System proof-of-concept (currently in production)
                     </figcaption>
                 </figure>
             </div>
@@ -239,8 +251,8 @@
             <div class="col-12">
                 <h3>4. Birth of a team</h3>
                 <p>
-                  After a year and a half of building the Design System in a distributed way, I suggested to some key stakeholders
-                  that we should make a push to further increase the velocity of the Design System.
+                  After a year and a half of building the Design System in a distributed way, I pitched to key stakeholders
+                  that the company should invest in a push to further increase the velocity of the Design System.
                 </p>
                 <p>
                   I put together a presentation outlining the benefits of speding dedicated resources to internal tooling. By attaching a dollar
@@ -263,25 +275,54 @@
                 <h3>5. Hardening and evangelizing</h3>
                 <p>
                   With a newfound team and hopeful hearts, the team set out on improving the developer experience of using the Design System. This meant
-                  moving from CSS tokens and webpack configs to CSS-in-JS (using styled system) and distributed builds for the React Components. The improvements were marked.
+                  moving from CSS tokens and webpack configs to CSS-in-JS (using styled system) and distributed builds for the React Components. 
+                  The improvements were significant.
                   From a previously difficult-to-navigate experience which might take a mid-level front-end engineer 2 hours to set up, we moved to a way of working
-                  that required about 2 minutes of fully-automated setup.
+                  that required <strong>less than 2 minutes to set up</strong>.
                 </p>
                 <p>
-                  With an easy-to-use solution for installation of usage of our UI components, we still provided very little guidance to stakeholders (designers, 
-                  developers, product managers, quality specialists) as to how, when, and why to use the components. For this reason, I teamed up with the other Designer 
-                  on the team to design, develop, and launch a comprehensive documentation site for the Design System.
+                  The team now offered an easy-to-use solution for installation of usage of our UI components. 
+                  Gap analysis showed that our stakeholders (designers, developers, product managers, quality specialists) 
+                  we provided with very little guidance as to how, when, and why to use the components. For this reason, 
+                  I teamed up with the other Designer on the team to design, develop, and launch a comprehensive 
+                  documentation site for the Design System.
+                </p>
+                <p>After working for about 2 months continuously, the MVP for our site was done. By launch, it contained:
+                  <ul style="list-style-type:circle;">
+                    <li>Getting started guide for design and development,</li>
+                    <li>Atoms documentation (color, spacing, typography, iconography),</li>
+                    <li>Product Content writing guidelines,</li>
+                    <li>Component documentation including example usage, copy guidelines, code playground, API documentation,</li>
+                    <li>Pattern documentation for high-level components and component compositions.</li>
+                  </ul>
                 </p>
                 <div class="col-12 center">
                     <figure>
-                        <img width="100%" src="images/projects/flame/ds-team.jpg" 
-                        srcset="images/projects/flame/ds-team.jpg" 
+                        <img width="100%" src="images/projects/flame/design-system-website.png"  
                         alt="Landing page for the Lightspeed Flame Design System" />
                         <figcaption>
                             Landing page for the Lightspeed Flame Design System
                         </figcaption>
                     </figure>
                 </div>
+                <p>Creating the site was not enough. Lightspeeders needed to know what it was, why it was good for them, and how to access it.
+                  With that in mind, I organized and held 2 "lunch-and-learn" events at Lightspeed offices (one in Amsterdam and one in Montreal) 
+                  to properly launch the Design System Documentation website. This launch resulted in a <strong>60% increase in visits to the site</strong> 
+                  from the previous soft-launch initiatives.
+                </p>
+                <div class="col-12 center">
+                    <figure>
+                        <img width="100%" src="images/projects/flame/amsterdam-launch.jpg"  
+                        alt="Launching the Design System in Amsterdam" />
+                        <figcaption>
+                            Launching the Design System in Amsterdam
+                        </figcaption>
+                    </figure>
+                </div>
+                <p>
+                  If you're still reading, and you can see the URL to the Design System Site (and password) on the photo above, 
+                  you deserve a visit. Be advised that the password is going away soon in favor of Google authentication.
+                </p>
             </div>
           </div>
       </section>

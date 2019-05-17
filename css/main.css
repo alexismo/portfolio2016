@@ -339,8 +339,7 @@ footer .socialicons li a i.fa-envelope-o:hover {
   padding: 10px 0 10px 0;
   font-family: "proxima-nova-regular", Roboto, sans-serif;
 
-  /* margin: 0 auto; */
-  max-width: 800px;
+  margin: 0 auto;
 }
 
 figure * {
