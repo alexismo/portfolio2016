@@ -1,0 +1,9 @@
+.bgimg-sidebar {
+  background-image: url("../images/projects/sidebar/sidebar-hero.jpg");
+  background-position: 50% 0;
+}
+
+#sidebarintro {
+  background-color: #181a1a;
+  color: #fff;
+}
